@@ -1,6 +1,25 @@
 ---
 layout: default
-title: learn git one commit at a time
+title: This is the title.
 ---
 
-<div>Hello world...</div>
+  <!-- info container start -->
+  <div class="info-container">
+    <div class="profile-pic">
+      <img src="/img/profile-pic.jpg">
+    </div>
+    <div class="description">
+      <p>My name is J.Shamsul Bahri. I am 
+      a <strong>web developer</strong> based 
+      in Kuala Lumpur, <strong>Malaysia</strong>. 
+      This is my personal website.</p>
+    </div>
+  </div><!-- info container ends -->
+
+  <!-- post list container start -->
+  <ul class="post-list-container">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" class="link">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul><!-- post list container ends -->
+

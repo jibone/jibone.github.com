@@ -1,0 +1,198 @@
+/*
+ *  jShamsul.com Main Style
+ */
+
+// ------------------------------------------------
+// -- reseting styles -----------------------------
+@import "reset.less";
+
+// ------------------------------------------------
+// -- variables and mixins ------------------------
+@import "variables.less";
+@import "mixins.less";
+
+// ------------------------------------------------
+// -- local variables -----------------------------
+@fontSerif: "TeX Gyre Schola","Georgia","Bitstream Charter","Century Schoolbook L","Liberation Serif","Times",serif;
+@fontSans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@monospace: monospace, sans-serif;
+
+@textcolor: #333;
+@twittercolor: #31c5f6;
+@facebookcolor: #3b5997;
+@link: #336699;
+@linkhover: #ff0086;
+
+// ------------------------------------------------
+// -- type face -----------------------------------
+@font-face {
+  font-family: 'Goudy';
+  src: url('../font/goudy/GoudyStM-webfont.eot');
+  src: url('../font/goudy/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/goudy/GoudyStM-webfont.woff') format('woff'),
+       url('../font/goudy/GoudyStM-webfont.ttf') format('truetype'),
+       url('../font/goudy/GoudyStM-webfont.svg#goudyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ------------------------------------------------
+// -- layout --------------------------------------
+html { }
+html, body {
+  color: @textcolor;
+  text-align: center;
+  font-family: 'Goudy', @fontSans;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+  height: auto;
+  background-color: #f3f3f3;
+  padding: 0px;
+  margin: 0px;
+}
+
+// -- navigation container -------------------------
+.navigation-container {
+  .clearfix;
+  a {
+    font-family: 'Raleway', @sansFontFamily;
+    font-weight: 400;
+    text-decoration: none;
+    color: @grayLighter;
+    letter-spacing: 1px;
+    &:hover {
+      text-decoration: none;
+      color: @white;
+    }
+  }
+  .logo-container {
+    background-color: #111;
+    padding: 10px 20px 10px 20px;
+    .clearfix;
+    .logo { 
+      text-align: left;
+      float: left;
+    }
+    .button {
+      text-align: right;
+      float: right;
+    }
+  }
+  ul.navigation {
+    text-align: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      border-bottom: 1px solid #333;
+      a {
+        padding: 10px 25px 10px 25px;
+        background-color: #222;
+        display: block;
+      }
+    }
+  }
+}
+
+// -- info container --------------------------------
+.info-container {
+  .clearfix;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  .profile-pic {
+    width: 80px;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    img {
+      .border-radius(200px);
+    }
+  }
+  .description {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+}
+
+// -- post list container ---------------------------
+ul.post-list-container {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  li {
+    padding: 10px 20px 10px 20px;
+    span {
+      display: block;
+    }
+    a {
+      font-family: 'Raleway', @sansFontFamily;
+      font-weight: 400;
+      font-size: 24px;
+      color: #111;
+      text-decoration: none;
+    }
+  }
+}
+
+.social-container {
+  .clearfix;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Raleway', @sansFontFamily;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  a.icons {
+    .clearfix;
+    width: 30%;
+    float: left;
+    color: #111;
+    text-decoration: none;
+    margin-bottom: 10px;
+    .js-icon {
+      float: left;
+      font-size: 20px;
+    }
+    span {
+      display: block;
+    }
+    span.link {
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.footer-container {
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+}
+
+// 480px
+@media only screen and (min-width: 480px) {
+  
+}
+
+// 600px
+@media only screen and (min-width: 600px) {
+
+}
+
+// 768px
+@media only screen and (min-width: 768px) { }
+
+
+// 992px
+@media only screen and (min-width: 992px) {
+
+}
+
+// 1382px
+@media only screen and (min-width: 1382px) {
+
+}

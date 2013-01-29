@@ -52,8 +52,20 @@ html, body {
   margin: 0px;
 }
 
+#fader {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+
+
+// -------------------------------------------------
 // -- navigation container -------------------------
-.navigation-container {
+.header-container {
   .clearfix;
   a {
     font-family: 'Raleway', @sansFontFamily;
@@ -69,18 +81,19 @@ html, body {
   .logo-container {
     background-color: #111;
     padding: 10px 20px 10px 20px;
+    text-align: left;
     .clearfix;
-    .logo { 
-      text-align: left;
-      float: left;
-    }
-    .button {
-      text-align: right;
-      float: right;
+    .logo { }
+    .button-left { margin-right: 10px; }
+    .button-right { float: right; }
+    #openSideNavi {  
+      display: none;
+      visibility: hidden;
     }
   }
   ul.navigation {
-    text-align: right;
+    display: none;
+    text-align: left;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -94,7 +107,9 @@ html, body {
     }
   }
 }
+.menu-icon { display: none; }
 
+// --------------------------------------------------
 // -- info container --------------------------------
 .info-container {
   .clearfix;
@@ -105,6 +120,7 @@ html, body {
     height: 100%;
     float: right;
     margin-right: 10px;
+    margin-left: 10px;
     margin-top: 20px;
     img {
       .border-radius(200px);
@@ -117,6 +133,7 @@ html, body {
   }
 }
 
+// --------------------------------------------------
 // -- post list container ---------------------------
 ul.post-list-container {
   list-style: none;
@@ -138,10 +155,50 @@ ul.post-list-container {
   }
 }
 
+// --------------------------------------------------
+// -- post container --------------------------------
+.post-container {
+  .clearfix;
+  text-align: left;
+  padding: 10px 20px 10px 20px;
+  h1 {
+    font-family: 'Raleway', @sansFontFamily;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  blockquote {
+    font-style: italic;
+    font-size: 120%;
+    color: lighten(@textcolor, 20%);
+    p {
+      margin-bottom: 10px;
+    }
+    p + p {
+      text-indent: 0px;
+    }
+  }
+  hr {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+  }
+  p {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 18px;
+  }
+  p + p {
+    text-indent: 2em;
+  }
+}
+
+// --------------------------------------------------
+// -- socian container ------------------------------
 .social-container {
   .clearfix;
   padding: 10px 20px 10px 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: left;
   font-family: 'Raleway', @sansFontFamily;
   font-weight: 400;
@@ -153,7 +210,7 @@ ul.post-list-container {
     float: left;
     color: #111;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     .js-icon {
       float: left;
       font-size: 20px;
@@ -168,19 +225,106 @@ ul.post-list-container {
   }
 }
 
+// --------------------------------------------------
+// -- footer container ------------------------------
 .footer-container {
   padding: 10px 20px 10px 20px;
   text-align: left;
+  font-size: 14px;
+  span { display: block; }
 }
 
-// 480px
+// --------------------------------------------------
+// -- settings for 480px screen ---------------------
 @media only screen and (min-width: 480px) {
   
 }
 
-// 600px
+// --------------------------------------------------
+// -- settings for 600px screen ---------------------
 @media only screen and (min-width: 600px) {
-
+  .page-container {
+    .clearfix;
+    .header-container {
+      #menuBtn {
+        display: none;
+        visibility: hidden;
+      }
+      #openSideNavi {
+        display: inline;
+        visibility: visible;
+      }
+      .logo {
+        margin-left: 45px;
+      }
+    }
+    .content-container {
+      margin: auto;
+      padding: 0px 80px 10px 80px;
+      .post-container {
+        p {
+          font-size: 1.35em;
+          line-height: 1.6em;
+        }
+      }
+    }
+    .menu-icon {
+      display: block;
+      width: 80px;
+      float: left;
+      margin-top: 40px;
+      margin-left: 10px;
+      #side-menu {
+        font-size: 25px;
+        color: @textcolor;
+      }
+    }
+  }
+  .info-container {
+    .description {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  .side-navigation-container {
+    background-color: #fff;
+    width: 40%;
+    height: 100%;
+    z-index: 200;
+    position: fixed;
+    top: 0px;
+    left: -40%;
+    .logo-container {
+      a.logo { 
+        color: @textcolor;
+        font-size: 28px;
+        text-decoration: none;
+        display: block;
+        padding: 40px 0px 60px 0px;
+      }
+      a.menu-icon-btn {
+        color: @textcolor;
+        float: right;
+        margin-top: -80px;
+        margin-right: 20px;
+      }
+    }
+    ul.side-navigation {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      background-color: #2f2f2f;
+      li{
+        a {
+          display: block;
+          font-size: 24px;
+          padding: 30px 0px 30px 0px;
+          color: #f3f3f3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 // 768px
@@ -188,11 +332,7 @@ ul.post-list-container {
 
 
 // 992px
-@media only screen and (min-width: 992px) {
-
-}
+@media only screen and (min-width: 992px) { }
 
 // 1382px
-@media only screen and (min-width: 1382px) {
-
-}
+@media only screen and (min-width: 1382px) { }

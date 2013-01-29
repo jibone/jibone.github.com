@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset=UTF-8>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
     <meta name="author" content="J Shamsul Bahri (@jibone)">
@@ -21,16 +21,23 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <!-- [TODO] facebook open  graph stuff -->
+    <!-- [TODO] twitter card stuff -->
+    <!-- [TODO] google plus stuff -->
   </head>
   <body>
     <!-- page container start -->
     <div class="page-container">
       {% include navigation.html %}
       <div class="content-container">
-      {{ content }}
-      {% include social.html %}
-      {% include footer.html %}
+        {{ content }}
+        {% include social.html %}
+        {% include footer.html %}
       </div>
     </div><!-- page container ends -->
+    <div id="fader">&nbsp;</div>
+    {% include side.html %}
+    {% include js.html %}
   </body>
 </html>

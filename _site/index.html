@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset=UTF-8>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>This is the title.</title>
+    <title>JShamsul.com (@jibone)</title>
     <meta name="author" content="J Shamsul Bahri (@jibone)">
     <meta name="description" content="This is the personal website of J.Shamsul Bahri, a web developer based in Kuala Lumpur, Malaysia.">
 
@@ -21,18 +21,24 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <!-- [TODO] facebook open  graph stuff -->
+    <!-- [TODO] twitter card stuff -->
+    <!-- [TODO] google plus stuff -->
   </head>
   <body>
     <!-- page container start -->
     <div class="page-container">
       
   <!-- navigation container start -->
-  <div class="navigation-container">
+  <div class="header-container">
     <div class="logo-container">
+      <a href="#" class="button-left" id="menuBtn"><i class="js-icon-menu"></i></a>
+      <a href="#" class="button-left" id="openSideNavi"><i class="js-icon-menu"></i></a>
       <a href="/" class="logo"><span class="bold">jS</span>hamsul.com</a>
-      <a href="#" class="button" id="menu-btn">Menu <i class="js-icon-menu"></i></a>
+      <a href="#" class="button-right" id="exportBtn"><i class="js-icon-export"></i></a>
     </div>
-    <ul class="navigation">
+    <ul class="navigation" id="naviList">
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/archive">Archive</a></li>
@@ -41,7 +47,7 @@
   </div><!-- navigation container ends -->
 
       <div class="content-container">
-        <!-- info container start -->
+          <!-- info container start -->
   <div class="info-container">
     <div class="profile-pic">
       <img src="/img/profile-pic.jpg">
@@ -72,7 +78,7 @@
   </ul><!-- post list container ends -->
 
 
-      
+        
   <!-- social container start -->
   <div class="social-container">
     <a href="http://twitter.com/jibone" class="icons twitter">
@@ -107,7 +113,7 @@
     </a>
   </div><!-- social container ends -->
 
-      
+        
   <!-- footer container start -->
   <div class="footer-container">
     <p><span>&copy; Copyright 2009 - 2013.</span> <span>All rights reserved unless stated otherwise.</span></p>
@@ -115,5 +121,27 @@
 
       </div>
     </div><!-- page container ends -->
+    <div id="fader">&nbsp;</div>
+    
+  <!-- side navigation container start -->
+  <div class="side-navigation-container" id="sideNavigation">
+    <div class="logo-container">
+      <a href="/" class="logo"><span class="bold">jS</span>hamsul.com</a>
+      <a href="#" class="menu-icon-btn" id="closeSideNavi"><i class="js-icon-menu"></i></a>
+    </div>
+
+    <ul class="side-navigation">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Archive</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </div><!-- side navigation container ends -->
+
+    
+  <!-- js files -->
+  <script src="/js/vendor/jquery.min.js"></script>
+  <script src="/js/app.js"></script>
+
   </body>
 </html>

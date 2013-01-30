@@ -24,6 +24,14 @@
 @linkhover: #ff0086;
 
 // ------------------------------------------------
+// -- local mixins --------------------------------
+.raleway_font {
+  font-family: 'Raleway', @sansFontFamily;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+// ------------------------------------------------
 // -- type face -----------------------------------
 @font-face {
   font-family: 'Goudy';
@@ -51,7 +59,6 @@ html, body {
   padding: 0px;
   margin: 0px;
 }
-
 #fader {
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
@@ -68,10 +75,9 @@ html, body {
 .header-container {
   .clearfix;
   position: fixed;
+  left: 0; right: 0;
   a {
-    font-family: 'Raleway', @sansFontFamily;
-    font-weight: 400;
-    text-decoration: none;
+    .raleway_font;
     color: @grayLighter;
     letter-spacing: 1px;
     &:hover {
@@ -83,9 +89,15 @@ html, body {
     background-color: #111;
     padding: 10px 20px 10px 20px;
     text-align: left;
+    font-size: 24px;
     .clearfix;
-    .logo { }
-    .button-left { margin-right: 10px; }
+    .logo { 
+      font-size: 18px;
+      display: block;
+      width: 200px;
+      float: left;
+    }
+    .button-left { margin-right: 10px; float: left; }
     .button-right { float: right; }
     #openSideNavi {  
       display: none;
@@ -93,22 +105,28 @@ html, body {
     }
   }
   ul.navigation {
+    background-color: #222;
     display: none;
     text-align: left;
     list-style: none;
     padding: 0px;
     margin: 0px;
     li {
-      border-bottom: 1px solid #333;
+      //border-bottom: 1px solid #333;
       a {
-        padding: 10px 25px 10px 25px;
-        background-color: #222;
+        padding: 15px 25px 15px 25px;
         display: block;
       }
     }
   }
 }
 .menu-icon { display: none; }
+
+// --------------------------------------------------
+// -- content container -----------------------------
+.content-container {
+  padding-top: 30px;
+}
 
 // --------------------------------------------------
 // -- info container --------------------------------
@@ -171,12 +189,8 @@ ul.post-list-container {
     font-style: italic;
     font-size: 120%;
     color: lighten(@textcolor, 20%);
-    p {
-      margin-bottom: 10px;
-    }
-    p + p {
-      text-indent: 0px;
-    }
+    p { margin-bottom: 10px; }
+    p + p { text-indent: 0px; }
   }
   hr {
     border-top: 1px solid #ccc;
@@ -203,8 +217,9 @@ ul.post-list-container {
   text-align: left;
   font-family: 'Raleway', @sansFontFamily;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 12px;
+  letter-spacing: 1px;
   a.icons {
     .clearfix;
     width: 30%;
@@ -214,14 +229,16 @@ ul.post-list-container {
     margin-bottom: 20px;
     .js-icon {
       float: left;
-      font-size: 20px;
+      font-size: 30px;
     }
     span {
       display: block;
+      margin-bottom: 5px;
     }
     span.link {
-      font-size: 10px;
+      font-size: 12px;
       letter-spacing: 1px;
+      font-weight: 200;
     }
   }
 }
@@ -255,13 +272,11 @@ ul.post-list-container {
         display: inline;
         visibility: visible;
       }
-      .logo {
-        margin-left: 45px;
-      }
+      .logo { margin-left: 35px; }
     }
     .content-container {
       margin: auto;
-      padding: 0px 80px 10px 80px;
+      padding: 40px 80px 10px 80px;
       .post-container {
         p {
           font-size: 1.35em;
@@ -295,33 +310,40 @@ ul.post-list-container {
     position: fixed;
     top: 0px;
     left: -40%;
-    .logo-container {
-      a.logo { 
-        color: @textcolor;
-        font-size: 28px;
+    a {
+      .raleway_font;
+      color: @grayLighter;
+      letter-spacing: 1px;
+      &:hover {
         text-decoration: none;
-        display: block;
-        padding: 40px 0px 60px 0px;
-      }
-      a.menu-icon-btn {
-        color: @textcolor;
-        float: right;
-        margin-top: -80px;
-        margin-right: 20px;
+        color: @white;
       }
     }
+    .logo-container {
+      background-color: #111;
+      padding: 10px 20px 10px 20px;
+      text-align: right;
+      font-size: 18px;
+      .clearfix;
+      .logo { 
+        font-size: 18px;
+        display: block;
+        width: 85%;
+        float: right;
+      }
+      .menu-icon-btn { padding-left: 3px; float: right; }
+    }
     ul.side-navigation {
+      background-color: #222;
+      text-align: right;
       list-style: none;
       padding: 0px;
       margin: 0px;
-      background-color: #2f2f2f;
       li{
+        // border-bottom: 1px solid #333;
         a {
           display: block;
-          font-size: 24px;
-          padding: 30px 0px 30px 0px;
-          color: #f3f3f3;
-          text-decoration: none;
+          padding: 15px 50px 15px 25px;
         }
       }
     }

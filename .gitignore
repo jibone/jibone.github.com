@@ -25,6 +25,10 @@
 *.log
 *.sql
 *.sqlite
+
+# Cache directories #
+#####################
+.sass-cache
  
 # OS generated files #
 ######################
@@ -36,3 +40,7 @@ Thumbs.db
 *.swo
 *.lnk
 *~
+
+# Don't commit assets folder #
+##############################
+assets/

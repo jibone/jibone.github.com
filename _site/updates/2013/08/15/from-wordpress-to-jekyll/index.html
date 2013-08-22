@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" id="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="author" content="J Shamsul Bahri (@jibone)">
+    
+    <title>From Wordpress to Jekyll</title>
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poly:400,400italic" type="text/css">
+    <link rel="stylesheet" href="/css/js.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/css/zenburn.css" type="text/css" charset="utf-8">
+    
+    <!-- feed stuff -->
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- [TODO] facebook open  graph stuff -->
+    <!-- [TODO] twitter card stuff -->
+    <!-- [TODO] google plus stuff -->
+  </head>
+  <body>
+    
+    <!-- header top bar container start -->
+    <div class="header-container">
+      <div class="page-container">
+        <div class="left"><a href="/" class="webtitle">jShamsul.com</a> </div>
+        <div class="right">
+          <a href="/about" class="right-menu">about</a> / <a href="/services">what I do</a> / <a href="/links">else where</a>
+        </div>
+      </div>
+    </div><!-- header top bar container ends -->
+
+    
+    <!-- post content container start -->
+    <div class="content-panel post-content-container">
+      <div class="page-container">
+        <h1 class="title">From Wordpress to Jekyll</h1>
+        <div class="content">
+          <p>I&#8217;ve decided to switch from a self-hosted Wordpress setup to Jekyll generated static site hosted on Github. I&#8217;ve been a long time user of Wordpress, as a blog-centric content management software I think it&#8217;s a great product.</p>
+
+<p><a href='http://wordpress.org'>Wordpress</a> can be installed on most shared hosting setup. As long as you have PHP and MySQL you are all set. Wordpress is the most used open-source software for creating websites. Tried and tested.</p>
+
+<p><a href='http://jekyllrb.com'>Jekyll</a> is a simple blog-aware static site generator. What it does is it takes a directory of text files written either in Markdown or Textile, render it with Liquid template converters and spits out an entire static website.</p>
+
+<p>Jekyll splits out HTML files that makes the entire website. As long as you have a web server that serves up HTML files you are set. There is not need for MySQL databases, setting up tables and all that stuff.</p>
+
+<p>There is no &#8216;admin&#8217; panel you need to login to update your blog. You write your post in a text file, format it with Markdown (or Textile), run Jekyll command line to generate all the static pages ready to publish.</p>
+
+<p>You can upload this generated file to your server, but there is a much better way. You can commit this files with Git, and push it to your remote Git repo on your server. Even better, you can also use Github.</p>
+
+<p>Github support Jekyll with their Github pages. Github store and serve your static website. This is what I went for.</p>
+
+<p>I am just starting to play around with, will update on this topic more.</p>
+        </div>
+        <div class="aside aside-blog-post">
+          <p>
+            Thursday, August 15, 2013<br/>
+            Filed under: updates
+          </p>
+          <p>
+            <span>Did you enjoy this post?</span>
+            <span>If so share it: 
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="jibone">Tweet</a>
+              <a class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false">Like</a>
+            </span>
+          </p>
+          <p>
+            <span>Have comments on this post or want to discuss further?</span>
+            <span>Hit me up on twitter and let me know your thoughts:</span>
+            <span>
+              <a href="https://twitter.com/jibone" class="twitter-follow-button" data-show-count="false">Follow @jibone</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div><!-- post content container ends -->
+    
+    <div class="separator">
+      <div class="page-container"><hr/></div>
+    </div>
+    
+    <!-- related post container start -->
+    <div class="content-panel related-post-container">
+      <div class="page-container">
+        <h3>Related Post</h3>
+        <div class="content">
+          <ul class="blog-list">
+          
+            <li><span class="date">Aug 19</span> &raquo; <a href="/dev%20notes/2013/08/19/where-is-the-iOS-simulator/" class="link">Where is the iOS Simulator?</a></li>
+          
+            <li><span class="date">Feb  5</span> &raquo; <a href="/personal/2012/02/05/yet-another-redesign/" class="link">Yet another redesign</a></li>
+          
+            <li><span class="date">Oct 17</span> &raquo; <a href="/labs/2011/10/17/weekend-web-project-crowded/" class="link">Weekend Web Project - Crowded</a></li>
+          
+          </ul>
+        </div>
+        <div class="aside">
+          <p>
+            <a href="/blog" class="link">jshamsul.com/blog</a> <span class="label">Archive</span>
+          </p>
+        </div>
+      </div>
+    </div><!-- related post container ends -->
+
+    
+    <!-- footer container start -->
+    <div class="footer-container">
+      <div class="page-container">
+        <span>Copyright &copy; 2010 - 2013 jShamsul.com. All Rights Reserved.</span>
+      </div>
+    </div><!-- footer container ends-->
+
+        
+    <!-- All the JavaScripts -->
+    <script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/jquery.unorphan.js"></script>
+    <script type="text/javascript" src="/js/js.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+  </body>
+</html>

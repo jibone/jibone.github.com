@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" id="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="author" content="J Shamsul Bahri (@jibone)">
+    
+    <title>Album cover art finder powered by Amazon Product API</title>
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poly:400,400italic" type="text/css">
+    <link rel="stylesheet" href="/css/js.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/css/zenburn.css" type="text/css" charset="utf-8">
+    
+    <!-- feed stuff -->
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- [TODO] facebook open  graph stuff -->
+    <!-- [TODO] twitter card stuff -->
+    <!-- [TODO] google plus stuff -->
+  </head>
+  <body>
+    
+    <!-- header top bar container start -->
+    <div class="header-container">
+      <div class="page-container">
+        <div class="left"><a href="/" class="webtitle">jShamsul.com</a> </div>
+        <div class="right">
+          <a href="/about" class="right-menu">about</a> / <a href="/services">what I do</a> / <a href="/links">else where</a>
+        </div>
+      </div>
+    </div><!-- header top bar container ends -->
+
+    
+    <!-- post content container start -->
+    <div class="content-panel post-content-container">
+      <div class="page-container">
+        <h1 class="title">Album cover art finder powered by Amazon Product API</h1>
+        <div class="content">
+          <p>Back at early 2006 I <a href='http://blog.jiboneus.com/2006/02/26/project-jaws-music-cd-cover-art-and-more/'>played around with the Amazon Web</a> Service API for their products, which they change the name to Product Advertising API or something. It is basically an API that lets your access the Amazon product catalog database.</p>
+
+<p>I use iTunes for all of my music. Some music which I ripped from the CD has no album cover art. There is no fun in ‘coverflowing’ through your library with blank album cover art. So back then I created this little website where one could insert artist and album and it query the album cover art for you, together with some details.</p>
+
+<p>The web app stop working when Amazon change their API calls. I am two lazy to make the changes back on my end and the web app just died. Until today that is</p>
+
+<p><img alt='Screenshot' src='/assets/Screen-shot-2011-04-27-at-2.03.56-PM.png' /></p>
+
+<p>This time instead of writing my own rest calls and what not, I decided to use <a href='http://getcloudfusion.com/'>CloudFusion</a>, which now has become the official Amazon Web Service SDK for PHP.</p>
+
+<p>The official SDK doesn’t have support for Amazon Product Advertising API, you can get that here on this <a href='https://github.com/cloudfusion/cloudfusion'>Github</a>.</p>
+
+<p>Try it out: – <a href='http://lab.jshamsul.com/coverartfinder'>http://lab.jshamsul.com/coverartfinder</a></p>
+
+<p>Redo the UI and added the Sexy Music Album overlays from Komondo Media. Awesome stuff.</p>
+
+<p>I’ll write a tutorial when I have the time.</p>
+        </div>
+        <div class="aside aside-blog-post">
+          <p>
+            Wednesday, March 16, 2011<br/>
+            Filed under: labs
+          </p>
+          <p>
+            <span>Did you enjoy this post?</span>
+            <span>If so share it: 
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="jibone">Tweet</a>
+              <a class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false">Like</a>
+            </span>
+          </p>
+          <p>
+            <span>Have comments on this post or want to discuss further?</span>
+            <span>Hit me up on twitter and let me know your thoughts:</span>
+            <span>
+              <a href="https://twitter.com/jibone" class="twitter-follow-button" data-show-count="false">Follow @jibone</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div><!-- post content container ends -->
+    
+    <div class="separator">
+      <div class="page-container"><hr/></div>
+    </div>
+    
+    <!-- related post container start -->
+    <div class="content-panel related-post-container">
+      <div class="page-container">
+        <h3>Related Post</h3>
+        <div class="content">
+          <ul class="blog-list">
+          
+            <li><span class="date">Aug 19</span> &raquo; <a href="/dev%20notes/2013/08/19/where-is-the-iOS-simulator/" class="link">Where is the iOS Simulator?</a></li>
+          
+            <li><span class="date">Aug 15</span> &raquo; <a href="/updates/2013/08/15/from-wordpress-to-jekyll/" class="link">From Wordpress to Jekyll</a></li>
+          
+            <li><span class="date">Feb  5</span> &raquo; <a href="/personal/2012/02/05/yet-another-redesign/" class="link">Yet another redesign</a></li>
+          
+          </ul>
+        </div>
+        <div class="aside">
+          <p>
+            <a href="/blog" class="link">jshamsul.com/blog</a> <span class="label">Archive</span>
+          </p>
+        </div>
+      </div>
+    </div><!-- related post container ends -->
+
+    
+    <!-- footer container start -->
+    <div class="footer-container">
+      <div class="page-container">
+        <span>Copyright &copy; 2010 - 2013 jShamsul.com. All Rights Reserved.</span>
+      </div>
+    </div><!-- footer container ends-->
+
+        
+    <!-- All the JavaScripts -->
+    <script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/jquery.unorphan.js"></script>
+    <script type="text/javascript" src="/js/js.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+  </body>
+</html>

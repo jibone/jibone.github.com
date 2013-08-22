@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: blog
 title: The philosophy professor and the invisible chair
 date: 2010-11-30 00:50:16
-category: stories
-tags:
+category: story
+tags: philosophy
 
 ---
-
-# The philosophy professor and the invisible chair 
 
 A philosophy professor asked his student just one question for their final exam. The question was :-
 

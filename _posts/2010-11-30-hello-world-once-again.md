@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: blog
 title: Hello World once again
 date: 2010-11-30 00:25:16
 category: updates
 tags:
  
 ---
-
-# Hello world once again
 
 A brand new start. I feel that I need a personal outlet, a web space I can call my own. [Jiboneus.com](http://jiboneus.com) started out as that, a personal blog, however now it has become a beast of it’s own. I have other plans for Jiboneus.com, and this website is for everything else.
 

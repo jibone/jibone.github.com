@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" id="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="author" content="J Shamsul Bahri (@jibone)">
+    
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poly:400,400italic" type="text/css">
+    <link rel="stylesheet" href="/css/js.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/css/zenburn.css" type="text/css" charset="utf-8">
+    
+    <!-- feed stuff -->
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- [TODO] facebook open  graph stuff -->
+    <!-- [TODO] twitter card stuff -->
+    <!-- [TODO] google plus stuff -->
+  </head>
+  <body>
+    {% include header.html %}
+    
+    <!-- post content container start -->
+    <div class="content-panel post-content-container">
+      <div class="page-container">
+        <h1 class="title">{{ page.title }}</h1>
+        <div class="content">
+          {{ content }}
+        </div>
+        <div class="aside aside-blog-post">
+          <p>
+            {{ page.date | date: "%A, %B %d, %Y" }}<br/>
+            Filed under: {{ page.categories | array_to_sentence_string }}
+          </p>
+          <p>
+            <span>Did you enjoy this post?</span>
+            <span>If so share it: 
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="jibone">Tweet</a>
+              <a class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false">Like</a>
+            </span>
+          </p>
+          <p>
+            <span>Have comments on this post or want to discuss further?</span>
+            <span>Hit me up on twitter and let me know your thoughts:</span>
+            <span>
+              <a href="https://twitter.com/jibone" class="twitter-follow-button" data-show-count="false">Follow @jibone</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div><!-- post content container ends -->
+    
+    <div class="separator">
+      <div class="page-container"><hr/></div>
+    </div>
+    
+    <!-- related post container start -->
+    <div class="content-panel related-post-container">
+      <div class="page-container">
+        <h3>Related Post</h3>
+        <div class="content">
+          <ul class="blog-list">
+          {% for post in site.related_posts limit: 3 %}
+            <li><span class="date">{{post.date | date: "%b %e"}}</span> &raquo; <a href="{{post.url}}" class="link">{{post.title}}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="aside">
+          <p>
+            <a href="/blog" class="link">jshamsul.com/blog</a> <span class="label">Archive</span>
+          </p>
+        </div>
+      </div>
+    </div><!-- related post container ends -->
+
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>

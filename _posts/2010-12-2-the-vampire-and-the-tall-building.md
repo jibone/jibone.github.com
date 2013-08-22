@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog
 title: The vampire and the tall building
 date: 2010-12-2 00:30:16
 category: stories
-tags:
+tags:  
  
 ---
 

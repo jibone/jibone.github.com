@@ -3,23 +3,64 @@ layout: default
 title: "JShamsul.com (@jibone)"
 ---
 
-  <!-- info container start -->
-  <div class="info-container">
-    <div class="profile-pic">
-      <img src="/img/profile-pic.jpg">
+  <!-- greetings container start -->
+  <div class="content-panel greetings-container">
+    <div class="page-container">
+      <div class="title">Hello Internets.</div>
     </div>
-    <div class="description">
-      <p>My name is J.Shamsul Bahri. I am 
-      a <strong>web developer</strong> based 
-      in Kuala Lumpur, <strong>Malaysia</strong>. 
-      This is my personal website.</p>
-    </div>
-  </div><!-- info container ends -->
+  </div><!-- greetings container ends -->
 
-  <!-- post list container start -->
-  <ul class="post-list-container">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" class="link">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul><!-- post list container ends -->
+  <!-- self intro container start -->
+  <div class="content-panel self-intro-container">
+    <div class="page-container">
+      <div class="content">
+        <p>My name is <strong>J.Shamsul Bahri</strong>. I am a <strong>full stack web engineer</strong>. I make
+        websites for fun and profit. Around the web I often go by the handle
+        <em>@jibone</em>.</p>
+      </div>
+      <div class="aside">
+        <p>
+          <a href="http://twitter.com/jibone" class="link">twitter.com/jibone</a> <span class="label">Twitter</span>
+        </p>
+      </div>
+    </div>
+  </div><!-- self intro container ends -->
+
+  <!-- more info container start -->
+  <div class="content-panel more-info-container">
+    <div class="page-container">
+      <div class="content">
+        <p>I am the founder of <a href="http://jiboneus.com">Jiboneus.com</a> a webzine about music, films and arts. I am also 
+        the cofounder of <a href="http://wirawanweb.com">WirawanWeb.com</a> webzine on all web related. Both of these websites
+        I am currently in the process of revemping.</p>
+        <p>I am currently a web developer working in a small digital agency <a href="http://ezypzy.com">Ezypzy</a>.</p>
+      </div>
+      <div class="aside">
+        <p>
+          <a href="http://jiboneus.com" class="link">jiboneus.com</a> <span class="label">Webzine</span>
+          <a href="http://wirawanweb.com" class="link">wirawanweb.com</a> <span class="label">Webzine</span>
+        </p>
+      </div>
+    </div>
+  </div><!-- more info container ends -->
+
+  <!-- blog list container start -->
+  <div class="content-panel blog-list-container">
+    <div class="page-container">
+      <div class="content">
+        <p>This is my personal website where I tend to write about things.</p>
+        <ul class="blog-list">
+          {% for post in site.posts limit: 10 %}
+          <li><span class="date">{{post.date | date: "%b %e"}}</span> &raquo; <a href="{{post.url}}" class="link">{{post.title}}</a></li>
+          {% endfor %}
+        </ul>
+        <p>More &raquo; <a href="/blog">Archive</a></p>
+      </div>
+      <div class="aside">
+        <p>
+        <a href="/blog" class="link">jshamsul.com/blog</a> <span class="label">Archive</span>
+        </p>
+      </div>
+    </div>
+  </div><!-- blog list container ends -->
 

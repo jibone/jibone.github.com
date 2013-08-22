@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: blog
 title: Death at a restaurant
 date: 2010-11-30 00:30:16
-category: stories
-tags:
+category: Story
+tags: death
 
 ---
-
-# Death at a restaurant
 
 Have this ever happen to you? You went to a restaurant, alone. You sat down, waiting for a somebody to attend to you and take your order. You sat and waited for about 10 minutes or so, but none of the waiters and waitresses notice your existent. So the first thing on your mind was that you are dead and you are now a ghost.
 

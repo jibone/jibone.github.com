@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: blog
 title: Desensitization of protest rallies
 date: 2010-12-5 00:30:16
 category: opinion
 tags:
  
 ---
-
-# Desesitization of protest rallies
 
 Today there was yet another protest rally in the heart of Kuala Lumpur. It was as per usual. Gather at Masjid Negara (National Mosque) then head over to Istana Negara (National Palace) to hand out a memorandum to the Agung (King). This post however is not about that particular protest, it’s about street protest in general all around the world.
 

@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: blog
 title: Meaning of life
 date: 2010-12-5 00:30:16
 category: stories
----
+tags:
 
-# Meaning of life
+---
 
 > When I was 5 years old, my mom always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up.
 >

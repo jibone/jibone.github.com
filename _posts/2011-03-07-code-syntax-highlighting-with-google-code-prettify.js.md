@@ -2,7 +2,7 @@
 layout: blog
 title: "Code syntax highlighting with Google Code Pretify.js"
 date: 2011-03-07 00:00:00
-category: code
+category: Developments
 tags:
 
 ---

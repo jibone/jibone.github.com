@@ -2,8 +2,11 @@
 layout: blog
 title: "From Wordpress to Jekyll"
 date: 2013-08-15 00:00:00
-category: updates
-tags: wordpress, jekyll, blogging
+category: Updates
+tags: 
+- wordpress
+- jekyll
+- blogging
 
 ---
 

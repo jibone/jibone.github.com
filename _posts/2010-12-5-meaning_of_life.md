@@ -2,7 +2,7 @@
 layout: blog
 title: Meaning of life
 date: 2010-12-5 00:30:16
-category: stories
+category: Stories
 tags:
 
 ---

@@ -2,8 +2,8 @@
 layout: blog
 title: Peaceful Demonstration
 date: 2011-02-26 00:00:00
-category: opinion
-tags:
+category: Opinions
+tags: Protest
 
 ---
 

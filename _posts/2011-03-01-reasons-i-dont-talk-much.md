@@ -2,7 +2,7 @@
 layout: blog
 title: "Reasons I don't talk much"
 date: 2011-03-01 00:00:00
-category: personal
+category: Personal
 tags:
 
 ---

@@ -2,8 +2,13 @@
 layout: blog
 title: "I am loving the Metro UI from Microsoft"
 date: 2011-09-22 00:00:00
-category: opinion
-tags: Windows 8, Microsoft, Metro UI, Modern UI
+category: Opinions
+tags: 
+- Windows 8
+- Microsoft
+- Metro UI
+- Modern UI
+- User Interface
 
 ---
 

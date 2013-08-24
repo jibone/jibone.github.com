@@ -2,8 +2,11 @@
 layout: blog
 title: "Where is the iOS Simulator?"
 date: 2013-08-19 00:00:00
-category: "developments"
-tags: iOS, Mobile, "Responsive Web"
+category: Developments
+tags: 
+- iOS
+- Mobile
+- Responsive Web
 
 ---
 

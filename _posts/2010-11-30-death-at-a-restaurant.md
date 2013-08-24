@@ -2,7 +2,7 @@
 layout: blog
 title: Death at a restaurant
 date: 2010-11-30 00:30:16
-category: Story
+category: Stories
 tags: death
 
 ---

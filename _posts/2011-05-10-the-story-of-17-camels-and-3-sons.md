@@ -2,7 +2,7 @@
 layout: blog
 title: "The story of 17 camels and 3 sons"
 date: 2011-05-10 00:00:00
-category: stories
+category: Stories
 tags:
 
 ---

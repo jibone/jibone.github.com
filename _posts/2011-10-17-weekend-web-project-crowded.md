@@ -2,8 +2,8 @@
 layout: blog
 title: "Weekend Web Project - Crowded"
 date: 2011-10-17 00:00:00
-category: labs
-tags: API, Foursquare
+categories: Labs
+tags: Foursquare
 
 ---
 

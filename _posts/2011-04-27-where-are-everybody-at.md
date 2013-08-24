@@ -2,8 +2,8 @@
 layout: blog
 title: "Where are everybody at?"
 date: 2011-04-27 00:00:00
-category: labs
-tags:
+category: Labs
+tags: Foursquare
 
 ---
 

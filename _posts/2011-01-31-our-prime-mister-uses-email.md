@@ -2,8 +2,10 @@
 layout: blog
 title: Our Prime Minister uses email
 date: 2011-01-31 00:00:00
-category: Malaysia
-tags:
+category: Opinions
+tags: 
+- Malaysia
+- Najib Razak
 
 ---
 

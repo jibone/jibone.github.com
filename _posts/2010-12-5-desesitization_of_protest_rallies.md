@@ -2,8 +2,8 @@
 layout: blog
 title: Desensitization of protest rallies
 date: 2010-12-5 00:30:16
-category: opinion
-tags:
+category: Opinions
+tags: Protest
  
 ---
 

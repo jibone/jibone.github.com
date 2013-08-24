@@ -2,8 +2,8 @@
 layout: blog
 title: "Album cover art finder powered by Amazon Product API"
 date: 2011-03-16 00:00:00
-category: labs
-tags:
+categories: Labs
+tags: Amazon API
 
 ---
 

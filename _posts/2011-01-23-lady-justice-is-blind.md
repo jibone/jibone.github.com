@@ -2,7 +2,7 @@
 layout: blog
 title: Lady Justice is blind
 date: 2011-01-23 00:00:00
-category: Opinion
+category: Opinions
 tabs:
 
 ---

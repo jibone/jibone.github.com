@@ -2,7 +2,7 @@
 layout: blog
 title: Hello World once again
 date: 2010-11-30 00:25:16
-category: updates
+category: Updates
 tags:
  
 ---

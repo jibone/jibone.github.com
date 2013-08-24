@@ -3,7 +3,7 @@ layout: blog
 title: Rebuilding the world
 date: 2010-12-19 00:00:00
 category: Stories
-tags:
+tags: Paulo Coelho
 
 ---
 

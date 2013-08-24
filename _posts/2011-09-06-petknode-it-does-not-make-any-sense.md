@@ -2,8 +2,10 @@
 layout: blog
 title: "Petknode - it does not make any sense"
 date: 2011-09-06 00:00:00
-category: opinion
-tags:
+category: Opinions
+tags: 
+- Petknode
+- Malaysia
 
 ---
 

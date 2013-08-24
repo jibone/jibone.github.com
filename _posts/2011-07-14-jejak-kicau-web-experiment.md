@@ -2,8 +2,10 @@
 layout: blog
 title: "Jejak Kicau web experiment"
 date: 2011-07-14 00:00:00
-category: labs, jejak kicau
-tags:
+categories: Labs
+tags: 
+- Jejak Kicau
+- Twitter API
 
 ---
 

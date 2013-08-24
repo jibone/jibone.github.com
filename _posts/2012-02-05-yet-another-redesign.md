@@ -2,7 +2,7 @@
 layout: blog
 title: "Yet another redesign"
 date: 2012-02-05 00:00:00
-category: personal
+category: Updates
 tags: redesign
 
 ---

@@ -2,8 +2,8 @@
 layout: blog
 title: Journalism is not dead
 date: 2010-12-14 00:00:00
-category: opinion
-tags:
+category: Opinions
+tags: journalism
 
 ---
 

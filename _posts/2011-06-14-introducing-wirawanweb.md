@@ -2,8 +2,8 @@
 layout: blog
 title: "Introducing WirawanWeb"
 date: 2011-06-14 00:00:00
-category: projects, wirawanweb
-tags: 
+category: Projects
+tags: WirawanWeb
 
 ---
 

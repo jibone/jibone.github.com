@@ -2,7 +2,7 @@
 layout: blog
 title: The philosophy professor and the invisible chair
 date: 2010-11-30 00:50:16
-category: story
+category: Stories
 tags: philosophy
 
 ---

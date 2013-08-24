@@ -2,7 +2,7 @@
 layout: blog
 title: These Are My Friends
 date: 2011-02-04 00:00:00
-category: story
+category: Stories
 tags:
 
 ---

@@ -42,25 +42,27 @@
       <div class="page-container">
         <h1 class="title">Where is the iOS Simulator?</h1>
         <div class="content">
-          <p>I don&#8217;t do much work on Xcode, I have yet done any native iOS app. However one utility of Xcode which I use from time to time is the iOS simulator. I use the Safari in the iOS simulator to test how a website would look like in a mobile form.</p>
+          <p>I don&#8217;t do much work on Xcode, although I&#8217;ve always wanted to do some native iOS work. One of the Xcode utility app which I use from time to time is the iOS simulator. I use the Safari in the iOS simulator to test how a website would look like in a mobile form.</p>
 
-<p>I recently had updated Xcode to version 4.6.3 and the iOS Simulator is nowhere to be found. After some Googling, it seems that Apple had packaged the iOS Simulator app into Xcode.</p>
+<p>I recently had updated my Xcode to version 4.6.3 and the iOS Simulator is nowhere to be found. After some Googling, it seems that Apple had packaged the iOS Simulator app into Xcode.</p>
 
-<p>That does not mean that you can&#8217;t use the iOS Simulator without launching Xcode. All you need to do is find the Xcode.app in your Application folder, instead of click to launch it, control + click it to show the folder menu and choose &#8216;Choose Package Contents&#8217;, this will open a Finder window with the contents of Xcode app. You will see a folder named &#8216;contents&#8217;. The path to your iPhone/iOS simulator is in -</p>
+<p>That does not mean that you can&#8217;t use the iOS Simulator without launching Xcode.</p>
+
+<p>All you need to do is find the Xcode.app in your Application folder, control + click on the app to show the folder menu and choose &#8216;Choose Package Contents&#8217;, this will open a Finder window with the contents of Xcode app. You will see a folder named &#8216;contents&#8217;. The path to your iPhone/iOS simulator is in -</p>
 <div class='highlight'><pre><code class='html'>Contents / Application / iPhone Simulator.app
 </code></pre></div>
 <p>That however is just an alias, control + click and choose &#8216;Show Original&#8217; if you want to know where the actual app is at.</p>
 
-<p>All other Xcode development utilities are all now bundled inside the Xcode app. What I did is to drag the app out to my Dock for easy access so that I don&#8217;t have to launch Xcode if I need to use any of these apps.</p>
+<p>All other Xcode development utilities are all now bundled inside the Xcode app. You can drag the app out to your Dock for easy access. That way, you don&#8217;t have to launch Xcode if you need to use the iOS Simulator app.</p>
 
 <h3 id='apps_inside_another_app'>Apps inside another app?</h3>
 
-<p>In NeXTSTEP and OpenStep, which are what OSX descended from, Application and its related resources including the application executable can be bundled in a directory and appeared as a single file to use, i.e. Application.app</p>
+<p>In NeXTSTEP and OpenStep, which are what OSX descended from, applications and its related resources including the executable can be bundled in a directory and appeared as a single file to use, i.e. &#8220;Application Name.app&#8221;.</p>
         </div>
         <div class="aside aside-blog-post">
           <p>
             Monday, August 19, 2013<br/>
-            Filed under: dev notes
+            Filed under: developments
           </p>
           <p>
             <span>Did you enjoy this post?</span>

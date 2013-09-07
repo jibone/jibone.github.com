@@ -12,7 +12,7 @@ tags:
 
 I've decided to switch from a self-hosted Wordpress setup to Jekyll generated static site hosted on Github. I've been a long time user of Wordpress, as a blog-centric content management software I think it's a great product.
 
-[Wordpress](http://wordpress.org) can be installed on most shared hosting setup. As long as you have PHP and MySQL you are all set. Wordpress is the most used open-source software for creating websites. Tried and tested.
+[Wordpress](http://wordpress.org) can be installed on most shared hosting setup. As long as you have PHP and MySQL you are all set. Wordpress is the most used open-source software for creating websites. Tried and tested. So why did I change?
 
 [Jekyll](http://jekyllrb.com) is a simple blog-aware static site generator. What it does is it takes a directory of text files written either in Markdown or Textile, render it with Liquid template converters and spits out an entire static website. 
 
@@ -24,6 +24,9 @@ You can upload this generated file to your server, but there is a much better wa
 
 Github support Jekyll with their Github pages. Github store and serve your static website. This is what I went for. 
 
-I am just starting to play around with, will update on this topic more.    
+I like the idea of not having any 'backend'. There is no secure admin panel to login in to and I can write my blog post with any text editor, format it with Markdown. When I'm done I just need to `git push` and it's up.
+
+I am just starting to play around with Jekyll, will update on this topic more.
+
 
   

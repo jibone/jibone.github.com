@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" id="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="author" content="J Shamsul Bahri (@jibone)">
+    
+    <title>Scraping Wikileaks for The Global Intelligence Files</title>
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poly:400,400italic" type="text/css">
+    <link rel="stylesheet" href="/css/js.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/css/zenburn.css" type="text/css" charset="utf-8">
+    
+    <!-- feed stuff -->
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jibone">
+    <meta name="twitter:creator" content="@jibone">
+    <meta name="twitter:title" content="Scraping Wikileaks for The Global Intelligence Files">
+    <meta name="twitter:url" content="http://jshamsul.com/labs/2013/08/31/scraping-wikileaks-for-the-global-intelligence-files/">
+    <meta name="twitter:description" content="Wikileaks begin publishing what they call &quot;[The Global Intelligence Files](https://search.wikileaks.org/gifiles/?rl)&quot;, which is a collection of over five million e-mails from [Stratfor](h...">
+    
+    <meta name="twitter:image:src" content="http://jshamsul.com/img/logo.png">
+    
+
+    <!-- Facebook Open Graph -->
+    <meta content="jShamsul.com (@jibone)" property="og:site_name">
+    <meta content="Scraping Wikileaks for The Global Intelligence Files" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="Wikileaks begin publishing what they call &quot;[The Global Intelligence Files](https://search.wikileaks.org/gifiles/?rl)&quot;, which is a collection of over five million e-mails from [Stratfor](h..." property="og:description">
+    <meta content="http://jshamsul.com/labs/2013/08/31/scraping-wikileaks-for-the-global-intelligence-files/" property="og:url">
+    <meta content="2013-08-31T08:00:00+08:00" property="article:published_time">
+    <meta content="http://jshamsul.com/about/" property="article:author">
+    
+    <meta content="http://jshamsul.com/img/logo.png" property="og:image">
+    
+    
+      
+      <meta content="labs" property="article:section">
+      
+    
+    
+      
+      <meta content="wikileaks" property="article:tag">
+      
+      <meta content="web scraping" property="article:tag">
+      
+      <meta content="stratfor" property="article:tag">
+      
+      <meta content="Malaysia" property="article:tag">
+      
+    
+
+    <!-- [TODO] google plus stuff -->
+  </head>
+  <body>
+    
+    <!-- header top bar container start -->
+    <div class="header-container">
+      <div class="page-container">
+        <div class="left"><a href="/" class="webtitle">jShamsul.com</a> </div>
+        <div class="right">
+          <a href="/about" class="right-menu">about</a> / <a href="/services">what I do</a> / <a href="/contact">contact</a>
+        </div>
+      </div>
+    </div><!-- header top bar container ends -->
+
+    
+    <!-- post content container start -->
+    <div class="content-panel post-content-container">
+      <div class="page-container">
+        <h1 class="title">Scraping Wikileaks for The Global Intelligence Files</h1>
+        <div class="content">
+          <p>Wikileaks begin publishing what they call &#8221;<a href='https://search.wikileaks.org/gifiles/?rl'>The Global Intelligence Files</a>&#8221;, which is a collection of over five million e-mails from <a href='http://www.stratfor.com/'>Stratfor</a>, a &#8216;global intelligence&#8217; firm headquartered in Texas. The emails are from July 2004 to late December 2011.</p>
+
+<p>Stratfor is a company that fronts as and intelligence publisher, but provides confidential intelligence services to large corporations such as Bhopal&#8217;s Dow Chemical Co., Lockheed Martin, Northrop Grumman, Raytheon and government agencies including US Department of Homeland Security, US Marines and US Defense Intelligence Agency.</p>
+
+<p>According to Wikileaks the emails reveal the inner workings of Stratfor. It shows their web of informers, pay-off structure, payment laundering techniques and other methods.</p>
+
+<p>From what I&#8217;ve read, which is only the emails in the release batch that says - &#8220;US Intelligence Firm Stratfor Eyes Malaysia&#8221;, it seems that Stratfor gathers all sort of information from various sources, on various matters, but mostly are on the country&#8217;s stability which includes political issues and the country&#8217;s oil and gas industry.</p>
+
+<p>Sources ranges from publicly available publications to confidential informations from their informant. They then analyze them and publish an in-depth report either for their newsletter, their website or for whoever their clients might be.</p>
+
+<p>Wikileaks have started releasing the emails back in early 2012. They release it batch by batch. The recent release had caught my attention. It&#8217;s the batch of emails marked as &#8220;US Inteliigence Firm Startfor Eyes Malaysia&#8221;. Would love to read what these people in this &#8216;global intelligence&#8217; firm has to say about Malaysia.</p>
+
+<p>I created a little script that scrapes Wikileaks to save all these email locally, so I don&#8217;t have to keep going to the wikileaks website to read them. I compiled all 2235 of the emails in a zip file. The script is on my <a href='http://github.com/jibone/nancy'>Github</a> if you are interested and you can download the compile zip file <a href='http://assets.jshamsul.com/downloads/stratfor_malaysia.zip'>here</a>.</p>
+
+<h3 id='so_whats_in_all_the_emails'>So what&#8217;s in all the emails?</h3>
+
+<p>I still have yet to go through all the emails, but from what I had read, nothing much. Bulk of the emails are them sharing news clippings and publications. Marked as OS which probably means &#8216;Open Source&#8217;, sources that are published and accessible publicly. Its interesting to see which news interest them though.</p>
+
+<p>There are also a few emails that start with this formatted header :-</p>
+
+<p><code>
+SOURCE: ML101 
+ATTRIBUTION: Stratfor sources in Kuala Lumpur 
+SOURCE DESCRIPTION: Editor, Malaysiakini.com, and confederation partner 
+PUBLICATION: as needed 
+SOURCE RELIABILITY: B 
+ITEM CREDIBILITY: 2 
+SPECIAL HANDLING: none 
+DISTRIBUTION: analysts 
+SOURCE HANDLER: Lena 
+</code></p>
+
+<p>Seems that one of their sources is the editor of Malaysiakini.com editor. While I am not a journalist, I believe that it&#8217;s common practice for journalists to exchange info among themselves.</p>
+
+<p>I don&#8217;t think there is anything nefarious in this emails. Most probably they are taking account of the source&#8217;s opinion on certain issues.</p>
+
+<p>Lena Bell seems interesting. It seems that she is most of the source handler.</p>
+
+<h3 id='read_it_yourself'>Read it yourself</h3>
+
+<p><a href='http://assets.jshamsul.com/downloads/stratfor_malaysia.zip'>Here is the zip collection</a> of &#8221;<a href='https://search.wikileaks.org/gifiles/?relid=668#searchresult'>US Intelligence Firm Stratfor Eyes Malaysia</a>&#8221; or head on over to Wikileaks to read these and many more internal emails of Stratfor.</p>
+        </div>
+        <div class="aside aside-blog-post">
+          <p>
+            Saturday, August 31, 2013<br/>
+            Filed under: labs
+          </p>
+          <p>
+            <span>Did you enjoy this post?</span>
+            <span>If so share it: 
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="jibone">Tweet</a>
+              <a class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false">Like</a>
+            </span>
+          </p>
+          <p>
+            <span>Have comments on this post or want to discuss further?</span>
+            <span>Hit me up on twitter and let me know your thoughts:</span>
+            <span>
+              <a href="https://twitter.com/jibone" class="twitter-follow-button" data-show-count="false">Follow @jibone</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div><!-- post content container ends -->
+    
+    <div class="separator">
+      <div class="page-container"><hr/></div>
+    </div>
+    
+    <!-- related post container start -->
+    <div class="content-panel related-post-container">
+      <div class="page-container">
+        <h3>Some Possibly Related Post</h3>
+        <div class="content">
+          <ul class="blog-list">
+          
+            <li><span class="date">Aug 19</span> &raquo; <a href="/developments/2013/08/19/where-is-the-iOS-simulator/" class="link">Where is the iOS Simulator?</a></li>
+          
+            <li><span class="date">Aug 15</span> &raquo; <a href="/updates/2013/08/15/from-wordpress-to-jekyll/" class="link">From Wordpress to Jekyll</a></li>
+          
+            <li><span class="date">Jul  7</span> &raquo; <a href="/personal/2013/07/07/welcoming-lana-to-this-world/" class="link">Welcoming Lana to this world</a></li>
+          
+          </ul>
+        </div>
+        <div class="aside">
+          <p>
+            <a href="/blog" class="link">jshamsul.com/blog</a> <span class="label">Archive</span>
+          </p>
+        </div>
+      </div>
+    </div><!-- related post container ends -->
+
+    
+    <!-- footer container start -->
+    <div class="footer-container">
+      <div class="page-container">
+        <span>Copyright &copy; 2010 - 2013 jShamsul.com. All Rights Reserved.</span>
+      </div>
+    </div><!-- footer container ends-->
+
+    <!-- google analytics start -->
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26351347-1']);
+  _gaq.push(['_setDomainName', 'jshamsul.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+    <!-- google analytics ends -->
+
+        
+    <!-- All the JavaScripts -->
+    <script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/vendor/jquery.unorphan.js"></script>
+    <script type="text/javascript" src="/js/js.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+  </body>
+</html>

@@ -4,5 +4,6 @@ permalink: pretty
 exclude: [Cakefile, README.md, CNAME]
 title: jShamsul.com (@jibone)
 description: Personal website of J.Shamsul (@jibone), a full stack web developer based in Kuala Lumpur, Malaysia.
+timezone: Asia/Kuala_Lumpur
 url: http://jshamsul.com
 assets_url: http://assets.jshamsul.com

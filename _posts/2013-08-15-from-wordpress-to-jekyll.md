@@ -24,7 +24,9 @@ You can upload this generated file to your server, but there is a much better wa
 
 Github support Jekyll with their Github pages. Github store and serve your static website. This is what I went for. 
 
-I like the idea of not having any 'backend'. There is no secure admin panel to login in to and I can write my blog post with any text editor, format it with Markdown. When I'm done I just need to `git push` and it's up.
+I like the idea of not having any 'backend'. There is no secure admin panel to login into, I can write my blog post with any text editor, format it with Markdown. When I'm done with my post, I just need to `git push` and it's up. Jekyll is definitely more developer friendly and works well with Git driven workflow.
+
+I can see how this seems intimidating to a non-technical person. Wordpress maybe a better choice for a more traditional workflow.
 
 I am just starting to play around with Jekyll, will update on this topic more.
 

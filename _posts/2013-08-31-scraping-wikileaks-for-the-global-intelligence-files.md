@@ -25,7 +25,9 @@ Wikileaks have started releasing the emails back in early 2012. They release it 
 
 I created a little script that scrapes Wikileaks to save all these email locally, so I don't have to keep going to the wikileaks website to read them. I compiled all 2235 of the emails in a zip file. The script is on my [Github](http://github.com/jibone/nancy) if you are interested and you can download the compile zip file [here](http://assets.jshamsul.com/downloads/stratfor_malaysia.zip).
 
-###So what's in all the emails?
+![Scraping Wikileaks Global Intelligence Files](http://assets.jshamsul.com/Screen-Shot-2013-09-01-at-2.37.20-PM.png)
+
+###So what is in all the emails?
  
 I still have yet to go through all the emails, but from what I had read, nothing much. Bulk of the emails are them sharing news clippings and publications. Marked as OS which probably means 'Open Source', sources that are published and accessible publicly. Its interesting to see which news interest them though.
 

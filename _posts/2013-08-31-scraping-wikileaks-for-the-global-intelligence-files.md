@@ -29,7 +29,7 @@ I created a little script that scrapes Wikileaks to save all these email locally
  
 I still have yet to go through all the emails, but from what I had read, nothing much. Bulk of the emails are them sharing news clippings and publications. Marked as OS which probably means 'Open Source', sources that are published and accessible publicly. Its interesting to see which news interest them though.
 
-There are also a few emails that start with this formatted header :-
+There are also a [few emails](https://search.wikileaks.org/gifiles/?viewemailid=72394) that start with this formatted header :-
 
 ```
 SOURCE: ML101 

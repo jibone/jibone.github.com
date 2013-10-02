@@ -20,7 +20,7 @@ Now if I would ever consider a smart phone, I would choose a BlackBerry and here
 
 At the moment we only hear about these three mobile platform competing against each other, Apple's iOS, Google's Android and Microsoft Windows Phone. The whole world's smart phone market runs either this 3 platform now.
  
-All three companies were mentioned in [Snowden's leaked NSA slides](http://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data), Google, Apple and Microsoft. All three platform are developed by companies based in the United States, subjected to the U.S. draconian laws, where they have to comply with National Security Letters. It is highly possible that all three major platform have backdoors which lets intelligent agencies like NSA access it.
+All three companies were mentioned in [Snowden's leaked NSA slides](http://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data), Google, Apple and Microsoft. All three platform are developed by companies based in the United States, subjected to the U.S. totalitarian laws, where they have to not only comply with [National Security Letters](http://en.wikipedia.org/wiki/National_security_letter), but they can not say anything about receiving it, because the letters come with a gag order. It is highly possible that all three major platform have backdoors which lets U.S intelligent agencies like NSA or FBI to access it.
 
 BlackBerry the company formerly known as RIM (Research In Motion) is a Canadian based telecommunication and wireless equipment company. They are the only non-U.S. smart phone manufacture that still have their own operating system and their own platform. 
 

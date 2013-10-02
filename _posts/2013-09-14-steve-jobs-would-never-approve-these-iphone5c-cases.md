@@ -1,9 +1,9 @@
 ---
-layout: blog
-title: "Steve Jobs would never approve these iPhone5c cases"
-date: 2013-9-13 16:30:00
-category: Opinions
-tags:
+layout: blog 
+title: "Steve Jobs would never approve these iPhone5c cases" 
+date: 2013-9-13 16:30:00 
+category: Opinions 
+tags: 
 - apple
 - iphone
 - iphone5c

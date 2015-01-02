@@ -88,11 +88,11 @@
       <div class="page-container">
         <h1 class="title">Jejak Kicau web experiment</h1>
         <div class="content">
-          <p>During the recent Bersih rally in Kuala Lumpur, some over 30,000 Malaysian were at the streets demanding a fair and clean election process. I thought it was the best time to try out a web experiment of mine which I an calling it ‘<a href='http://lab.jshamsul.com/jejak-kicau'>Jejak Kicau</a>‘, the term is in Malay and it translates directly to english as ‘Tweets Track’ or something.</p>
+          <p>During the recent Bersih rally in Kuala Lumpur, some over 30,000 Malaysian were at the streets demanding a fair and clean election process. I thought it was the best time to try out a web experiment of mine which I an calling it ‘<a href="http://lab.jshamsul.com/jejak-kicau">Jejak Kicau</a>‘, the term is in Malay and it translates directly to english as ‘Tweets Track’ or something.</p>
 
-<h3 id='introduction'>Introduction</h3>
+<h3 id="introduction">Introduction</h3>
 
-<p><img alt='Jejak Kicau Screenshot' src='http://jshamsul.com/wp-content/uploads/2011/07/Screen-shot-2011-07-09-at-12.43.29-PM.png' /></p>
+<p><img src="http://jshamsul.com/wp-content/uploads/2011/07/Screen-shot-2011-07-09-at-12.43.29-PM.png" alt="Jejak Kicau Screenshot" /></p>
 
 <p>I these days everyone is armed with mobile phones equipped with cameras. Either we realize it or not we are constantly putting up stuff on the Internet, Twitter, Facebook and so one. These days, the moment something happens the photos are already on the net.</p>
 
@@ -106,54 +106,55 @@
 
 <p>Here are some technical details:-</p>
 
-<h3 id='codeigniter_framework'>Codeigniter Framework</h3>
+<h3 id="codeigniter-framework">Codeigniter Framework</h3>
 
-<p>The reason I choose this is more of a personal preference then a technical one. I’ve been doing PHP/MySQL for quite sometime with <a href='http://codeigniter.com/'>Codeigniter</a>. It just makes things faster for me. I’ve nothing against Ruby, Python or even Node.js</p>
+<p>The reason I choose this is more of a personal preference then a technical one. I’ve been doing PHP/MySQL for quite sometime with <a href="http://codeigniter.com/">Codeigniter</a>. It just makes things faster for me. I’ve nothing against Ruby, Python or even Node.js</p>
 
-<h3 id='codeigniter_twitter_library'>Codeigniter Twitter Library</h3>
+<h3 id="codeigniter-twitter-library">Codeigniter Twitter Library</h3>
 
-<p>I use <a href='http://www.haughin.com/code/twitter/'>Elliot Haughin’s Twitter Codeigniter Library</a>. While write one when there is a perfectly nice working library that reads Twitter API.</p>
+<p>I use <a href="http://www.haughin.com/code/twitter/">Elliot Haughin’s Twitter Codeigniter Library</a>. While write one when there is a perfectly nice working library that reads Twitter API.</p>
 
 <p>Currently Jejak Kicau pulls searched tweets in an interval time. In the future I am planing to use the Twitter Streaming API if possible.</p>
 
-<h3 id='google_map_cluster_marker'>Google Map Cluster Marker</h3>
+<h3 id="google-map-cluster-marker">Google Map Cluster Marker</h3>
 
-<p><img alt='Jejak Kicau Screenshot' src='http://jshamsul.com/assets/Screen-shot-2011-07-09-at-12.40.07-PM.png' /></p>
+<p><img src="http://jshamsul.com/assets/Screen-shot-2011-07-09-at-12.40.07-PM.png" alt="Jejak Kicau Screenshot" /></p>
 
-<p>I suggest you take a look at <a href='http://code.google.com/apis/maps/index.html'>Google Map JavaScript v3 API</a>, it’s super easy. Each tweets with a geo location information gets a marker on the Google Map. Now when there are a lot of tweets in one place, the map gets crowded with markers. Fortunately Google Map API comes with a <a href='http://code.google.com/apis/maps/articles/toomanymarkers.html'>Marker Cluster API</a>. It group nearby markers.</p>
+<p>I suggest you take a look at <a href="http://code.google.com/apis/maps/index.html">Google Map JavaScript v3 API</a>, it’s super easy. Each tweets with a geo location information gets a marker on the Google Map. Now when there are a lot of tweets in one place, the map gets crowded with markers. Fortunately Google Map API comes with a <a href="http://code.google.com/apis/maps/articles/toomanymarkers.html">Marker Cluster API</a>. It group nearby markers.</p>
 
-<h3 id='photos_from_twitter'>Photos from Twitter</h3>
+<h3 id="photos-from-twitter">Photos from Twitter</h3>
 
 <p>Each tweets coming in there is a function that scrubs it for links to photo uploading websites. Currently it only aware of three, Lockerz.com, yFrog.com and Twitpic.com. This three image sharing service offers ways to get a thumbnail pic from the url.</p>
 
 <p>For photos from Lockerz.com (I think formally it was Plixi):-</p>
-<div class='highlight'><pre><code class='html'>http://api.plixi.com/api/tpapi.svc/imagefromurl?url=[the pic url]<span class='err'>&amp;</span>size=small
-</code></pre></div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">http://api.plixi.com/api/tpapi.svc/imagefromurl?url=[the pic url]<span class="err">&amp;</span>size=small</code></pre></div>
+
 <p>For photos from yFrog, you can use just add ‘:small’ at the end of the URL:-</p>
-<div class='highlight'><pre><code class='html'>http://yfrog.com/ke4xddj:small
-</code></pre></div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">http://yfrog.com/ke4xddj:small</code></pre></div>
+
 <p>For Twitpic you need to get the twitpic id code from the url and use this url:-</p>
-<div class='highlight'><pre><code class='html'>http://twitpic.com/show/thumb/[the twitpic id]
-</code></pre></div>
-<h3 id='future_enhancement'>Future enhancement</h3>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">http://twitpic.com/show/thumb/[the twitpic id]</code></pre></div>
+
+<h3 id="future-enhancement">Future enhancement</h3>
 
 <ol>
-<li>
-<p>To resolved shorten url to it’s full form. Read the title from the header and display that instead of the shorten link like what it is now.</p>
-</li>
-
-<li>
-<p>Use Twitter Streaming API if possible.</p>
-</li>
-
-<li>
-<p>Smoother animations when new tweets coming in and photos. The ajax call are rough at the moment.</p>
-</li>
-
-<li>
-<p>Put the codes up on a public repository.</p>
-</li>
+  <li>
+    <p>To resolved shorten url to it’s full form. Read the title from the header and display that instead of the shorten link like what it is now.</p>
+  </li>
+  <li>
+    <p>Use Twitter Streaming API if possible.</p>
+  </li>
+  <li>
+    <p>Smoother animations when new tweets coming in and photos. The ajax call are rough at the moment.</p>
+  </li>
+  <li>
+    <p>Put the codes up on a public repository.</p>
+  </li>
 </ol>
+
         </div>
         <div class="aside aside-blog-post">
           <p>
@@ -191,7 +192,7 @@
           
             <li><span class="date">Oct 11</span> &raquo; <a href="/labs/2013/10/11/hipster-crypto/" class="link">Hipster Crypto</a></li>
           
-            <li><span class="date">Sep 13</span> &raquo; <a href="/opinions/2013/09/13/steve-jobs-would-never-approve-these-iphone5c-cases/" class="link">Steve Jobs would never approve these iPhone5c cases</a></li>
+            <li><span class="date">Sep 14</span> &raquo; <a href="/opinions/2013/09/14/steve-jobs-would-never-approve-these-iphone5c-cases/" class="link">Steve Jobs would never approve these iPhone5c cases</a></li>
           
             <li><span class="date">Sep 10</span> &raquo; <a href="/opinions/2013/09/10/apple-special-event-september-2013/" class="link">Apple Special Event: September 2013</a></li>
           

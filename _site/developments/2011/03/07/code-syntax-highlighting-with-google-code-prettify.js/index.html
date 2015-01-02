@@ -91,22 +91,27 @@
 <p>Of course I should have looked for the WordPress plugin first but I didn’t. I ended up embedding it into this theme.</p>
 
 <p>Put this within your head tag -</p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;link</span> <span class='na'>href=</span><span class='s'>&quot;prettify.css&quot;</span> <span class='na'>type=</span><span class='s'>&quot;text/css&quot;</span> <span class='na'>rel=</span><span class='s'>&quot;stylesheet&quot;</span> <span class='nt'>/&gt;</span>
-<span class='nt'>&lt;script </span><span class='na'>type=</span><span class='s'>&quot;text/javascript&quot;</span> <span class='na'>src=</span><span class='s'>&quot;prettify.js&quot;</span><span class='nt'>&gt;&lt;/script&gt;</span>
-</code></pre></div>
-<p>When you post, wrap your code in the pre or code tag.</p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;pre</span> <span class='na'>class=</span><span class='s'>&quot;prettyprint&quot;</span><span class='nt'>&gt;</span>...<span class='nt'>&lt;/pre&gt;</span>
-</code></pre></div>
-<p>I like my tab spacing to be 4 space rather than the default 8 spaces. So open up the prettify.js file and change ‘PR_TAB_WIDTH’ to 4.</p>
-<div class='highlight'><pre><code class='javascript'><span class='nb'>window</span><span class='p'>[</span><span class='s1'>&#39;PR_SHOULD_USE_CONTINUATION&#39;</span><span class='p'>]</span> <span class='o'>=</span> <span class='kc'>true</span><span class='p'>;</span>
 
-<span class='cm'>/** the number of characters between tab columns */</span>
-<span class='nb'>window</span><span class='p'>[</span><span class='s1'>&#39;PR_TAB_WIDTH&#39;</span><span class='p'>]</span> <span class='o'>=</span> <span class='mi'>4</span><span class='p'>;</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;prettify.css&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;prettify.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
+
+<p>When you post, wrap your code in the pre or code tag.</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">&quot;prettyprint&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/pre&gt;</span></code></pre></div>
+
+<p>I like my tab spacing to be 4 space rather than the default 8 spaces. So open up the prettify.js file and change ‘PR_TAB_WIDTH’ to 4.</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">window</span><span class="p">[</span><span class="s1">&#39;PR_SHOULD_USE_CONTINUATION&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+
+<span class="cm">/** the number of characters between tab columns */</span>
+<span class="nb">window</span><span class="p">[</span><span class="s1">&#39;PR_TAB_WIDTH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span></code></pre></div>
+
 <p>Add onload=”prettyPrint()” to your document’s body tag, and done. Now it’s all pretty.</p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;body</span> <span class='na'>onload=</span><span class='s'>&quot;prettyPrint()&quot;</span><span class='nt'>&gt;</span>
-</code></pre></div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">&quot;prettyPrint()&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
 <p>You might want to encode your code into an entity-encoded markup. Either use this tool SimpleCode or install a WordPress plugin, WP_CodeShield that encodes everything within the &lt; code &gt; tag into an entity-encoded markup.</p>
+
         </div>
         <div class="aside aside-blog-post">
           <p>
@@ -144,7 +149,7 @@
           
             <li><span class="date">Oct 11</span> &raquo; <a href="/labs/2013/10/11/hipster-crypto/" class="link">Hipster Crypto</a></li>
           
-            <li><span class="date">Sep 13</span> &raquo; <a href="/opinions/2013/09/13/steve-jobs-would-never-approve-these-iphone5c-cases/" class="link">Steve Jobs would never approve these iPhone5c cases</a></li>
+            <li><span class="date">Sep 14</span> &raquo; <a href="/opinions/2013/09/14/steve-jobs-would-never-approve-these-iphone5c-cases/" class="link">Steve Jobs would never approve these iPhone5c cases</a></li>
           
             <li><span class="date">Sep 10</span> &raquo; <a href="/opinions/2013/09/10/apple-special-event-september-2013/" class="link">Apple Special Event: September 2013</a></li>
           

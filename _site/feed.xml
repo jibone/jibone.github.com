@@ -10,19 +10,20 @@
         <title>Hipster Crypto</title>
         <description>&lt;p&gt;With the recent events regarding presentations slides and other classified documents about the NSA digitally spying on Internet users leaked, cryptography has become a hot topic. The technique of securing communication in the presence of a third party, in this case the NSA, are being discusses among tech geeks.&lt;/p&gt;
 
-&lt;p&gt;We all now know that the NSA collects and kept all form of digital communications. One way of hiding it from them is to use an encryption. However sending an encrypted email is like raising a big sign saying &amp;#8220;look at me, I&amp;#8217;m doing something in secret, therefor I must be doing something illegal!&amp;#8221; The NSA has more reason to keep an email when it&amp;#8217;s encrypted than an unencrypted email. Once they have an encrypted email it is just the better of how much time and resources they want to spend in breaking it.&lt;/p&gt;
+&lt;p&gt;We all now know that the NSA collects and kept all form of digital communications. One way of hiding it from them is to use an encryption. However sending an encrypted email is like raising a big sign saying “look at me, I’m doing something in secret, therefor I must be doing something illegal!” The NSA has more reason to keep an email when it’s encrypted than an unencrypted email. Once they have an encrypted email it is just the better of how much time and resources they want to spend in breaking it.&lt;/p&gt;
 
-&lt;p&gt;This is where Hipster Crypto come in handy. Hipster Crypto will disguise your message with words typically used by hipsters. This way whoever that&amp;#8217;s intercepting your message would think that it&amp;#8217;s just a two hipsters emailing each other.&lt;/p&gt;
+&lt;p&gt;This is where Hipster Crypto come in handy. Hipster Crypto will disguise your message with words typically used by hipsters. This way whoever that’s intercepting your message would think that it’s just a two hipsters emailing each other. &lt;/p&gt;
 
-&lt;p&gt;Try it out &lt;a href='http://hipstercrypto.jshamsul.com/'&gt;Hipster Crypto&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Try it out &lt;a href=&quot;http://hipstercrypto.jshamsul.com/&quot;&gt;Hipster Crypto&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Hipster Crypto' src='http://assets.jshamsul.com/Screen-shot-2013-09-17-at-1.55.13-AM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-shot-2013-09-17-at-1.55.13-AM.png&quot; alt=&quot;Hipster Crypto&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Now before all you start emailing me saying that this in not real crypto, I created this as a joke. I got the idea from &lt;a href='http://hipsteripsum.me/'&gt;Hipster Ipsum&lt;/a&gt; where instead of using your typical &amp;#8216;lorem ipsum&amp;#8217; as placeholder text, it generated paragraphs containing words typically used by hipsters.&lt;/p&gt;
+&lt;p&gt;Now before all you start emailing me saying that this in not real crypto, I created this as a joke. I got the idea from &lt;a href=&quot;http://hipsteripsum.me/&quot;&gt;Hipster Ipsum&lt;/a&gt; where instead of using your typical ‘lorem ipsum’ as placeholder text, it generated paragraphs containing words typically used by hipsters. &lt;/p&gt;
 
-&lt;p&gt;Hipster Crypto is just a simple basic symmetric key encryption. Both party have to agree upon a secret &amp;#8216;passphrase&amp;#8217; and use that for both encrypting and decrypting the message.&lt;/p&gt;
+&lt;p&gt;Hipster Crypto is just a simple basic symmetric key encryption. Both party have to agree upon a secret ‘passphrase’ and use that for both encrypting and decrypting the message.&lt;/p&gt;
 
-&lt;p&gt;I put up the code on a &lt;a href='https://github.com/jibone/Hipster-Crypto'&gt;Github repo&lt;/a&gt; just for fun.&lt;/p&gt;</description>
+&lt;p&gt;I put up the code on a &lt;a href=&quot;https://github.com/jibone/Hipster-Crypto&quot;&gt;Github repo&lt;/a&gt; just for fun. &lt;/p&gt;
+</description>
         <pubDate>Fri, 11 Oct 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/labs/2013/10/11/hipster-crypto/</link>
         <guid isPermaLink="true">http://jshamsul.com/labs/2013/10/11/hipster-crypto/</guid>
@@ -30,49 +31,53 @@
     
       <item>
         <title>Steve Jobs would never approve these iPhone5c cases</title>
-        <description>&lt;p&gt;I notice this while surfing on Apple&amp;#8217;s website. I was on the &lt;a href='http://www.apple.com/iphone-5c/'&gt;iPhone5c page&lt;/a&gt; looking at more pictures and reading specs. Just browsing around.&lt;/p&gt;
+        <description>&lt;p&gt;I notice this while surfing on Apple’s website. I was on the &lt;a href=&quot;http://www.apple.com/iphone-5c/&quot;&gt;iPhone5c page&lt;/a&gt; looking at more pictures and reading specs. Just browsing around.&lt;/p&gt;
 
-&lt;p&gt;Apple had introduced this funky looking iPhone5c cases where you can mismatch colors. Seems like fun. I then notice the word &amp;#8216;hon&amp;#8217; on one of those holes in the cases.&lt;/p&gt;
+&lt;p&gt;Apple had introduced this funky looking iPhone5c cases where you can mismatch colors. Seems like fun. I then notice the word ‘hon’ on one of those holes in the cases.&lt;/p&gt;
 
-&lt;p&gt;I keep thinking what is that word, until I eventually figured it out that it was the word &amp;#8216;iPhone&amp;#8217; with the letters &amp;#8216;iP&amp;#8217; and &amp;#8216;e&amp;#8217; blocked by the case and only &amp;#8216;hon&amp;#8217; is visible through one of the holes.&lt;/p&gt;
+&lt;p&gt;I keep thinking what is that word, until I eventually figured it out that it was the word ‘iPhone’ with the letters ‘iP’ and ‘e’ blocked by the case and only ‘hon’ is visible through one of the holes. &lt;/p&gt;
 
-&lt;p&gt;I know this is such a small minor design issue and only effects the aesthetic just slightly, but if Steve Jobs is still around, I don&amp;#8217;t think that he would have approved this case design.&lt;/p&gt;
+&lt;p&gt;I know this is such a small minor design issue and only effects the aesthetic just slightly, but if Steve Jobs is still around, I don’t think that he would have approved this case design.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Apple iPhone5c with case' src='http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.37.32-PM.png' /&gt;&lt;/p&gt;</description>
-        <pubDate>Fri, 13 Sep 2013 16:30:00 +0800</pubDate>
-        <link>http://jshamsul.com/opinions/2013/09/13/steve-jobs-would-never-approve-these-iphone5c-cases/</link>
-        <guid isPermaLink="true">http://jshamsul.com/opinions/2013/09/13/steve-jobs-would-never-approve-these-iphone5c-cases/</guid>
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.37.32-PM.png&quot; alt=&quot;Apple iPhone5c with case&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Sep 2013 00:30:00 +0800</pubDate>
+        <link>http://jshamsul.com/opinions/2013/09/14/steve-jobs-would-never-approve-these-iphone5c-cases/</link>
+        <guid isPermaLink="true">http://jshamsul.com/opinions/2013/09/14/steve-jobs-would-never-approve-these-iphone5c-cases/</guid>
       </item>
     
       <item>
         <title>Apple Special Event: September 2013</title>
-        <description>&lt;p&gt;I used to write for an Apple/Mac centric blog, and each time there were any Apple Special Event, we would stayed up late at night looking at liveblogs and IRC channels. After that I would write a short post on what I thought of the announcement.&lt;/p&gt;
+        <description>&lt;p&gt;I used to write for an Apple/Mac centric blog, and each time there were any Apple Special Event, we would stayed up late at night looking at liveblogs and IRC channels. After that I would write a short post on what I thought of the announcement. &lt;/p&gt;
 
 &lt;p&gt;Just for nostalgia sake I am doing one here.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Apple Special Event' src='http://assets.jshamsul.com/apple-event-sept-2013.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/apple-event-sept-2013.png&quot; alt=&quot;Apple Special Event&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The reality distortion field level in this one is very low. It might be because this is one of those rare times where all almost all the rumor websites actually got it right. What rumored to happen, happened. No surprises here.&lt;/p&gt;
 
-&lt;p&gt;Apple introduces the iPhone5c priced lower then the premium iPhones, which people are jokingly calling it &amp;#8216;iPhone 5 cheap&amp;#8217;. The &amp;#8216;c&amp;#8217; here of course stands for &amp;#8216;colors&amp;#8217;.&lt;/p&gt;
+&lt;p&gt;Apple introduces the iPhone5c priced lower then the premium iPhones, which people are jokingly calling it ‘iPhone 5 cheap’. The ‘c’ here of course stands for ‘colors’.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Apple iPhone5c' src='http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.38.23-PM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.38.23-PM.png&quot; alt=&quot;Apple iPhone5c&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;These Lumia looking iPhones are unapologetically plastic. Even though it is plastic, from the videos and photos it looks very solidly builded. So does the Lumia phones.&lt;/p&gt;
 
-&lt;p&gt;Apple iPhones has always been a premium product. Other smart phone manufactures are killing it in the lower end market and it seems Apple wants a piece of the action. The lower priced iPhone might just do it. Might make the iPhone look &amp;#8216;hip&amp;#8217; to the younger consumers. It&amp;#8217;s priced towards them too.&lt;/p&gt;
+&lt;p&gt;Apple iPhones has always been a premium product. Other smart phone manufactures are killing it in the lower end market and it seems Apple wants a piece of the action. The lower priced iPhone might just do it. Might make the iPhone look ‘hip’ to the younger consumers. It’s priced towards them too. &lt;/p&gt;
 
-&lt;p&gt;However I think the real reason for Apple to introduce a new line of lower end iPhone is to make the next generation of Apple&amp;#8217;s current line of iPhone looks more premium. They even colored it gold.&lt;/p&gt;
+&lt;p&gt;However I think the real reason for Apple to introduce a new line of lower end iPhone is to make the next generation of Apple’s current line of iPhone looks more premium. They even colored it gold.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Apple iPhone5s' src='http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.39.16-PM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-Shot-2013-09-14-at-4.39.16-PM.png&quot; alt=&quot;Apple iPhone5s&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It&amp;#8217;s always been the case where an &amp;#8216;s&amp;#8217; version of the iPhone is just a spec upgrade, and it looks exactly like the non-&amp;#8217;s&amp;#8217; version. How would people know you have the latest and greatest iPhone when what you have looks the same as the previous version? Apple address this by making a gold colored iPhone of course.&lt;/p&gt;
+&lt;p&gt;It’s always been the case where an ‘s’ version of the iPhone is just a spec upgrade, and it looks exactly like the non-‘s’ version. How would people know you have the latest and greatest iPhone when what you have looks the same as the previous version? Apple address this by making a gold colored iPhone of course.&lt;/p&gt;
 
-&lt;p&gt;This iPhone5s is just a test run for the fingerprint scanner. If the technology works flawlessly, I bet we will be seeing this on all of Apple devices.&lt;/p&gt;
+&lt;p&gt;This iPhone5s is just a test run for the fingerprint scanner. If the technology works flawlessly, I bet we will be seeing this on all of Apple devices. &lt;/p&gt;
 
-&lt;p&gt;However it seems Apple trust the scanner enough that you can have it as a verification for an iTunes Store purchase.&lt;/p&gt;
+&lt;p&gt;However it seems Apple trust the scanner enough that you can have it as a verification for an iTunes Store purchase. &lt;/p&gt;
 
-&lt;p&gt;It was a short announcement and there was no &amp;#8216;one more thing.&amp;#8217; I think that have always been a Steve Jobs thing.&lt;/p&gt;</description>
+&lt;p&gt;It was a short announcement and there was no ‘one more thing.’ I think that have always been a Steve Jobs thing. &lt;/p&gt;
+
+</description>
         <pubDate>Tue, 10 Sep 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/opinions/2013/09/10/apple-special-event-september-2013/</link>
         <guid isPermaLink="true">http://jshamsul.com/opinions/2013/09/10/apple-special-event-september-2013/</guid>
@@ -80,27 +85,27 @@
     
       <item>
         <title>Scraping Wikileaks for The Global Intelligence Files</title>
-        <description>&lt;p&gt;Wikileaks begin publishing what they call &amp;#8221;&lt;a href='https://search.wikileaks.org/gifiles/?rl'&gt;The Global Intelligence Files&lt;/a&gt;&amp;#8221;, which is a collection of over five million e-mails from &lt;a href='http://www.stratfor.com/'&gt;Stratfor&lt;/a&gt;, a &amp;#8216;global intelligence&amp;#8217; firm headquartered in Texas. The emails are from July 2004 to late December 2011.&lt;/p&gt;
+        <description>&lt;p&gt;Wikileaks begin publishing what they call “&lt;a href=&quot;https://search.wikileaks.org/gifiles/?rl&quot;&gt;The Global Intelligence Files&lt;/a&gt;”, which is a collection of over five million e-mails from &lt;a href=&quot;http://www.stratfor.com/&quot;&gt;Stratfor&lt;/a&gt;, a ‘global intelligence’ firm headquartered in Texas. The emails are from July 2004 to late December 2011.&lt;/p&gt;
 
-&lt;p&gt;Stratfor is a company that fronts as and intelligence publisher, but provides confidential intelligence services to large corporations such as Bhopal&amp;#8217;s Dow Chemical Co., Lockheed Martin, Northrop Grumman, Raytheon and government agencies including US Department of Homeland Security, US Marines and US Defense Intelligence Agency.&lt;/p&gt;
+&lt;p&gt;Stratfor is a company that fronts as and intelligence publisher, but provides confidential intelligence services to large corporations such as Bhopal’s Dow Chemical Co., Lockheed Martin, Northrop Grumman, Raytheon and government agencies including US Department of Homeland Security, US Marines and US Defense Intelligence Agency.&lt;/p&gt;
 
-&lt;p&gt;According to Wikileaks the emails reveal the inner workings of Stratfor. It shows their web of informers, pay-off structure, payment laundering techniques and other methods.&lt;/p&gt;
+&lt;p&gt;According to Wikileaks the emails reveal the inner workings of Stratfor. It shows their web of informers, pay-off structure, payment laundering techniques and other methods. &lt;/p&gt;
 
-&lt;p&gt;From what I&amp;#8217;ve read, which is only the emails in the release batch that says - &amp;#8220;US Intelligence Firm Stratfor Eyes Malaysia&amp;#8221;, it seems that Stratfor gathers all sort of information from various sources, on various matters, but mostly are on the country&amp;#8217;s stability which includes political issues and the country&amp;#8217;s oil and gas industry.&lt;/p&gt;
+&lt;p&gt;From what I’ve read, which is only the emails in the release batch that says - “US Intelligence Firm Stratfor Eyes Malaysia”, it seems that Stratfor gathers all sort of information from various sources, on various matters, but mostly are on the country’s stability which includes political issues and the country’s oil and gas industry. &lt;/p&gt;
 
 &lt;p&gt;Sources ranges from publicly available publications to confidential informations from their informant. They then analyze them and publish an in-depth report either for their newsletter, their website or for whoever their clients might be.&lt;/p&gt;
 
-&lt;p&gt;Wikileaks have started releasing the emails back in early 2012. They release it batch by batch. The recent release had caught my attention. It&amp;#8217;s the batch of emails marked as &amp;#8220;US Inteliigence Firm Startfor Eyes Malaysia&amp;#8221;. Would love to read what these people in this &amp;#8216;global intelligence&amp;#8217; firm has to say about Malaysia.&lt;/p&gt;
+&lt;p&gt;Wikileaks have started releasing the emails back in early 2012. They release it batch by batch. The recent release had caught my attention. It’s the batch of emails marked as “US Inteliigence Firm Startfor Eyes Malaysia”. Would love to read what these people in this ‘global intelligence’ firm has to say about Malaysia.&lt;/p&gt;
 
-&lt;p&gt;I created a little script that scrapes Wikileaks to save all these email locally, so I don&amp;#8217;t have to keep going to the wikileaks website to read them. I compiled all 2235 of the emails in a zip file. The script is on my &lt;a href='http://github.com/jibone/nancy'&gt;Github&lt;/a&gt; if you are interested and you can download the compile zip file &lt;a href='http://assets.jshamsul.com/downloads/stratfor_malaysia.zip'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I created a little script that scrapes Wikileaks to save all these email locally, so I don’t have to keep going to the wikileaks website to read them. I compiled all 2235 of the emails in a zip file. The script is on my &lt;a href=&quot;http://github.com/jibone/nancy&quot;&gt;Github&lt;/a&gt; if you are interested and you can download the compile zip file &lt;a href=&quot;http://assets.jshamsul.com/downloads/stratfor_malaysia.zip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Scraping Wikileaks Global Intelligence Files' src='http://assets.jshamsul.com/Screen-Shot-2013-09-01-at-2.37.20-PM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-Shot-2013-09-01-at-2.37.20-PM.png&quot; alt=&quot;Scraping Wikileaks Global Intelligence Files&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id='so_what_is_in_all_the_emails'&gt;So what is in all the emails?&lt;/h3&gt;
+&lt;h3 id=&quot;so-what-is-in-all-the-emails&quot;&gt;So what is in all the emails?&lt;/h3&gt;
 
-&lt;p&gt;I still have yet to go through all the emails, but from what I had read, nothing much. Bulk of the emails are them sharing news clippings and publications. Marked as OS which probably means &amp;#8216;Open Source&amp;#8217;, sources that are published and accessible publicly. Its interesting to see which news interest them though.&lt;/p&gt;
+&lt;p&gt;I still have yet to go through all the emails, but from what I had read, nothing much. Bulk of the emails are them sharing news clippings and publications. Marked as OS which probably means ‘Open Source’, sources that are published and accessible publicly. Its interesting to see which news interest them though.&lt;/p&gt;
 
-&lt;p&gt;There are also a &lt;a href='https://search.wikileaks.org/gifiles/?viewemailid=72394'&gt;few emails&lt;/a&gt; that start with this formatted header :-&lt;/p&gt;
+&lt;p&gt;There are also a &lt;a href=&quot;https://search.wikileaks.org/gifiles/?viewemailid=72394&quot;&gt;few emails&lt;/a&gt; that start with this formatted header :-&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;
 SOURCE: ML101 
@@ -114,15 +119,16 @@ DISTRIBUTION: analysts
 SOURCE HANDLER: Lena 
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Seems that one of their sources is the editor of Malaysiakini.com editor. While I am not a journalist, I believe that it&amp;#8217;s common practice for journalists to exchange info among themselves.&lt;/p&gt;
+&lt;p&gt;Seems that one of their sources is the editor of Malaysiakini.com editor. While I am not a journalist, I believe that it’s common practice for journalists to exchange info among themselves.  &lt;/p&gt;
 
-&lt;p&gt;I don&amp;#8217;t think there is anything nefarious in this emails. Most probably they are taking account of the source&amp;#8217;s opinion on certain issues.&lt;/p&gt;
+&lt;p&gt;I don’t think there is anything nefarious in this emails. Most probably they are taking account of the source’s opinion on certain issues.&lt;/p&gt;
 
 &lt;p&gt;Lena Bell seems interesting. It seems that she is most of the source handler.&lt;/p&gt;
 
-&lt;h3 id='read_it_yourself'&gt;Read it yourself&lt;/h3&gt;
+&lt;h3 id=&quot;read-it-yourself&quot;&gt;Read it yourself&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href='http://assets.jshamsul.com/downloads/stratfor_malaysia.zip'&gt;Here is the zip collection&lt;/a&gt; of &amp;#8221;&lt;a href='https://search.wikileaks.org/gifiles/?relid=668#searchresult'&gt;US Intelligence Firm Stratfor Eyes Malaysia&lt;/a&gt;&amp;#8221; or head on over to Wikileaks to read these and many more internal emails of Stratfor.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&quot;http://assets.jshamsul.com/downloads/stratfor_malaysia.zip&quot;&gt;Here is the zip collection&lt;/a&gt; of “&lt;a href=&quot;https://search.wikileaks.org/gifiles/?relid=668#searchresult&quot;&gt;US Intelligence Firm Stratfor Eyes Malaysia&lt;/a&gt;” or head on over to Wikileaks to read these and many more internal emails of Stratfor.&lt;/p&gt;
+</description>
         <pubDate>Sat, 31 Aug 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/labs/2013/08/31/scraping-wikileaks-for-the-global-intelligence-files/</link>
         <guid isPermaLink="true">http://jshamsul.com/labs/2013/08/31/scraping-wikileaks-for-the-global-intelligence-files/</guid>
@@ -130,22 +136,25 @@ SOURCE HANDLER: Lena
     
       <item>
         <title>Where is the iOS Simulator?</title>
-        <description>&lt;p&gt;I don&amp;#8217;t do much work on Xcode, although I&amp;#8217;ve always wanted to do some native iOS work. One of the Xcode utility app which I use from time to time is the iOS simulator. I use the Safari in the iOS simulator to test how a website would look like in a mobile form.&lt;/p&gt;
+        <description>&lt;p&gt;I don’t do much work on Xcode, although I’ve always wanted to do some native iOS work. One of the Xcode utility app which I use from time to time is the iOS simulator. I use the Safari in the iOS simulator to test how a website would look like in a mobile form.&lt;/p&gt;
 
 &lt;p&gt;I recently had updated my Xcode to version 4.6.3 and the iOS Simulator is nowhere to be found. After some Googling, it seems that Apple had packaged the iOS Simulator app into Xcode.&lt;/p&gt;
 
-&lt;p&gt;That does not mean that you can&amp;#8217;t use the iOS Simulator without launching Xcode.&lt;/p&gt;
+&lt;p&gt;That does not mean that you can’t use the iOS Simulator without launching Xcode. &lt;/p&gt;
 
-&lt;p&gt;All you need to do is find the Xcode.app in your Application folder, control + click on the app to show the folder menu and choose &amp;#8216;Choose Package Contents&amp;#8217;, this will open a Finder window with the contents of Xcode app. You will see a folder named &amp;#8216;contents&amp;#8217;. The path to your iPhone/iOS simulator is in -&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='html'&gt;Contents / Application / iPhone Simulator.app
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;That however is just an alias, control + click and choose &amp;#8216;Show Original&amp;#8217; if you want to know where the actual app is at.&lt;/p&gt;
+&lt;p&gt;All you need to do is find the Xcode.app in your Application folder, control + click on the app to show the folder menu and choose ‘Choose Package Contents’, this will open a Finder window with the contents of Xcode app. You will see a folder named ‘contents’. The path to your iPhone/iOS simulator is in -&lt;/p&gt;
 
-&lt;p&gt;All other Xcode development utilities are all now bundled inside the Xcode app. You can drag the app out to your Dock for easy access. That way, you don&amp;#8217;t have to launch Xcode if you need to use the iOS Simulator app.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;Contents / Application / iPhone Simulator.app&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id='apps_inside_another_app'&gt;Apps inside another app?&lt;/h3&gt;
+&lt;p&gt;That however is just an alias, control + click and choose ‘Show Original’ if you want to know where the actual app is at. &lt;/p&gt;
 
-&lt;p&gt;In NeXTSTEP and OpenStep, which are what OSX descended from, applications and its related resources including the executable can be bundled in a directory and appeared as a single file to use, i.e. &amp;#8220;Application Name.app&amp;#8221;.&lt;/p&gt;</description>
+&lt;p&gt;All other Xcode development utilities are all now bundled inside the Xcode app. You can drag the app out to your Dock for easy access. That way, you don’t have to launch Xcode if you need to use the iOS Simulator app.&lt;/p&gt;
+
+&lt;h3 id=&quot;apps-inside-another-app&quot;&gt;Apps inside another app?&lt;/h3&gt;
+
+&lt;p&gt;In NeXTSTEP and OpenStep, which are what OSX descended from, applications and its related resources including the executable can be bundled in a directory and appeared as a single file to use, i.e. “Application Name.app”.&lt;/p&gt;
+
+</description>
         <pubDate>Mon, 19 Aug 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/developments/2013/08/19/where-is-the-iOS-simulator/</link>
         <guid isPermaLink="true">http://jshamsul.com/developments/2013/08/19/where-is-the-iOS-simulator/</guid>
@@ -153,25 +162,27 @@ SOURCE HANDLER: Lena
     
       <item>
         <title>From Wordpress to Jekyll</title>
-        <description>&lt;p&gt;I&amp;#8217;ve decided to switch from a self-hosted Wordpress setup to Jekyll generated static site hosted on Github. I&amp;#8217;ve been a long time user of Wordpress, as a blog-centric content management software I think it&amp;#8217;s a great product.&lt;/p&gt;
+        <description>&lt;p&gt;I’ve decided to switch from a self-hosted Wordpress setup to Jekyll generated static site hosted on Github. I’ve been a long time user of Wordpress, as a blog-centric content management software I think it’s a great product.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://wordpress.org'&gt;Wordpress&lt;/a&gt; can be installed on most shared hosting setup. As long as you have PHP and MySQL you are all set. Wordpress is the most used open-source software for creating websites. Tried and tested. So why did I change?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://wordpress.org&quot;&gt;Wordpress&lt;/a&gt; can be installed on most shared hosting setup. As long as you have PHP and MySQL you are all set. Wordpress is the most used open-source software for creating websites. Tried and tested. So why did I change?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://jekyllrb.com'&gt;Jekyll&lt;/a&gt; is a simple blog-aware static site generator. What it does is it takes a directory of text files written either in Markdown or Textile, render it with Liquid template converters and spits out an entire static website.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a simple blog-aware static site generator. What it does is it takes a directory of text files written either in Markdown or Textile, render it with Liquid template converters and spits out an entire static website. &lt;/p&gt;
 
 &lt;p&gt;Jekyll splits out HTML files that makes the entire website. As long as you have a web server that serves up HTML files you are set. There is not need for MySQL databases, setting up tables and all that stuff.&lt;/p&gt;
 
-&lt;p&gt;There is no &amp;#8216;admin&amp;#8217; panel you need to login to update your blog. You write your post in a text file, format it with Markdown (or Textile), run Jekyll command line to generate all the static pages ready to publish.&lt;/p&gt;
+&lt;p&gt;There is no ‘admin’ panel you need to login to update your blog. You write your post in a text file, format it with Markdown (or Textile), run Jekyll command line to generate all the static pages ready to publish.&lt;/p&gt;
 
-&lt;p&gt;You can upload this generated file to your server, but there is a much better way. You can commit this files with Git, and push it to your remote Git repo on your server. Even better, you can also use Github.&lt;/p&gt;
+&lt;p&gt;You can upload this generated file to your server, but there is a much better way. You can commit this files with Git, and push it to your remote Git repo on your server. Even better, you can also use Github. &lt;/p&gt;
 
-&lt;p&gt;Github support Jekyll with their Github pages. Github store and serve your static website. This is what I went for.&lt;/p&gt;
+&lt;p&gt;Github support Jekyll with their Github pages. Github store and serve your static website. This is what I went for. &lt;/p&gt;
 
-&lt;p&gt;I like the idea of not having any &amp;#8216;backend&amp;#8217;. There is no secure admin panel to login into, I can write my blog post with any text editor, format it with Markdown. When I&amp;#8217;m done with my post, I just need to &lt;code&gt;git push&lt;/code&gt; and it&amp;#8217;s up. Jekyll is definitely more developer friendly and works well with Git driven workflow.&lt;/p&gt;
+&lt;p&gt;I like the idea of not having any ‘backend’. There is no secure admin panel to login into, I can write my blog post with any text editor, format it with Markdown. When I’m done with my post, I just need to &lt;code&gt;git push&lt;/code&gt; and it’s up. Jekyll is definitely more developer friendly and works well with Git driven workflow.&lt;/p&gt;
 
 &lt;p&gt;I can see how this seems intimidating to a non-technical person. Wordpress maybe a better choice for a more traditional workflow.&lt;/p&gt;
 
-&lt;p&gt;I am just starting to play around with Jekyll, will update on this topic more.&lt;/p&gt;</description>
+&lt;p&gt;I am just starting to play around with Jekyll, will update on this topic more.&lt;/p&gt;
+
+</description>
         <pubDate>Thu, 15 Aug 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/updates/2013/08/15/from-wordpress-to-jekyll/</link>
         <guid isPermaLink="true">http://jshamsul.com/updates/2013/08/15/from-wordpress-to-jekyll/</guid>
@@ -181,21 +192,24 @@ SOURCE HANDLER: Lena
         <title>Welcoming Lana to this world</title>
         <description>&lt;p&gt;Today marks the beginning of a new chapter in my life, Not only that I am a son and a husband, I am now a dad. Last year about the same time, I married my lovely wife, Nurul Izwa. This year we are blessed with our daughter Lana.&lt;/p&gt;
 
-&lt;h4 id='how_do_you_feel_now'&gt;How do you feel now?&lt;/h4&gt;
+&lt;h4 id=&quot;how-do-you-feel-now&quot;&gt;How do you feel now?&lt;/h4&gt;
 
-&lt;p&gt;I got asked that a lot. It feels different that&amp;#8217;s for sure. My priority in life has changed.&lt;/p&gt;
+&lt;p&gt;I got asked that a lot. It feels different that’s for sure. My priority in life has changed.&lt;/p&gt;
 
 &lt;p&gt;Deep down I feel that my time is running out. When we were young we felt invincible. We felt that the world is ours for the taking. We do stuff, risky stuff and stupid stuff without considering any of there consequences.&lt;/p&gt;
 
-&lt;p&gt;Now with a daughter to take care of, I no longer felt that way. The world is not mine for the taking any more, it&amp;#8217;s hers. It&amp;#8217;s her world now, we are just living in it.&lt;/p&gt;
+&lt;p&gt;Now with a daughter to take care of, I no longer felt that way. The world is not mine for the taking any more, it’s hers. It’s her world now, we are just living in it. &lt;/p&gt;
 
-&lt;p&gt;My time is up, soon it&amp;#8217;s going to be her time. All we as parents can do is to hand down to her as much wisdom as we can. Wisdom that we have collected all these years.&lt;/p&gt;
+&lt;p&gt;My time is up, soon it’s going to be her time. All we as parents can do is to hand down to her as much wisdom as we can. Wisdom that we have collected all these years. &lt;/p&gt;
 
-&lt;p&gt;That, together with the wisdom she that she finds for herself, she is going to conquer the world, take on any challenges life may bring to her.&lt;/p&gt;
+&lt;p&gt;That, together with the wisdom she that she finds for herself, she is going to conquer the world, take on any challenges life may bring to her. &lt;/p&gt;
 
 &lt;p&gt;And we will right there supporting her.&lt;/p&gt;
+
 &lt;hr /&gt;
-&lt;p&gt;Just felt like I should write something about my daughter Lana. Still getting use to saying that two words, &amp;#8216;my daughter&amp;#8217;.&lt;/p&gt;</description>
+
+&lt;p&gt;Just felt like I should write something about my daughter Lana. Still getting use to saying that two words, ‘my daughter’.&lt;/p&gt;
+</description>
         <pubDate>Sun, 07 Jul 2013 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/personal/2013/07/07/welcoming-lana-to-this-world/</link>
         <guid isPermaLink="true">http://jshamsul.com/personal/2013/07/07/welcoming-lana-to-this-world/</guid>
@@ -205,19 +219,20 @@ SOURCE HANDLER: Lena
         <title>Yet another redesign</title>
         <description>&lt;p&gt;I’ve lost count how many times I did a redesign to this website of mine. One thing for sure is that the more redesign I do, the less of a ‘design’ it has become. Here you see me obsessed in minimalistic white-space heavy design. Less is not just more, less is better. Sort of.&lt;/p&gt;
 
-&lt;p&gt;I’ve also decided to adopt &lt;a href='http://html5boilerplate.com/'&gt;html5boilerplate&lt;/a&gt;, not entirely just most of the basic ideas and snippets from that project. I even keep the bright pink highlighting color, go ahead highlight my text. Since I love doing my CSS with Sass now, I use this little project on Github, &lt;a href='https://github.com/grega/HTML5-Boilerplate-with-Sass'&gt;HTML5-Boilerplate-with-Sass&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’ve also decided to adopt &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;html5boilerplate&lt;/a&gt;, not entirely just most of the basic ideas and snippets from that project. I even keep the bright pink highlighting color, go ahead highlight my text. Since I love doing my CSS with Sass now, I use this little project on Github, &lt;a href=&quot;https://github.com/grega/HTML5-Boilerplate-with-Sass&quot;&gt;HTML5-Boilerplate-with-Sass&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I spend a large amount of time arguing with myself while doing this theme. Should I use a light border to separate items, or just a big fat white-space. You can see which route I took.&lt;/p&gt;
 
 &lt;p&gt;Here are some snapshots of how this website looks previously:-&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='screenshot' src='http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.20-AM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.20-AM.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='screenshot' src='http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.46-AM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.46-AM.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='screenshot' src='http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.20-AM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jshamsul.com/assets/Screen-Shot-2012-02-04-at-9.26.20-AM.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve also decided to share the code. The theme code are on a &lt;a href='https://github.com/jibone/wp-jshamsul.com'&gt;public Github repo&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;I’ve also decided to share the code. The theme code are on a &lt;a href=&quot;https://github.com/jibone/wp-jshamsul.com&quot;&gt;public Github repo&lt;/a&gt;.&lt;/p&gt;
+</description>
         <pubDate>Sun, 05 Feb 2012 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/updates/2012/02/05/yet-another-redesign/</link>
         <guid isPermaLink="true">http://jshamsul.com/updates/2012/02/05/yet-another-redesign/</guid>
@@ -225,15 +240,16 @@ SOURCE HANDLER: Lena
     
       <item>
         <title>Weekend Web Project - Crowded</title>
-        <description>&lt;p&gt;A silly little website that searches Foursquare checkins at a certain area on the map. It finds trending venues and display it on the map. You might have guessed it already, I’m just playing around with the Foursquare API. Try it out:- &lt;a href='http://lab.jshamsul.com/crowded'&gt;lab.jshamsul.com/crowded&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;A silly little website that searches Foursquare checkins at a certain area on the map. It finds trending venues and display it on the map. You might have guessed it already, I’m just playing around with the Foursquare API. Try it out:- &lt;a href=&quot;http://lab.jshamsul.com/crowded&quot;&gt;lab.jshamsul.com/crowded&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Screenshot' src='http://jshamsul.com/assets/Screen-shot-2011-10-16-at-8.19.56-PM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jshamsul.com/assets/Screen-shot-2011-10-16-at-8.19.56-PM.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If there is not trending venue, use the form to jump to a certain location. List of trending venues are displayed once you are at a location where there are a lot of checkins.&lt;/p&gt;
 
 &lt;p&gt;Some technology and API used for this project are, Foursquare API, Google Map API v3, Google Map Utility Library MarkerClusterer. Codes are up on Github, if you want to have a look.&lt;/p&gt;
 
-&lt;p&gt;Does this thing have legs? probably not.&lt;/p&gt;</description>
+&lt;p&gt;Does this thing have legs? probably not.&lt;/p&gt;
+</description>
         <pubDate>Mon, 17 Oct 2011 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/labs/2011/10/17/weekend-web-project-crowded/</link>
         <guid isPermaLink="true">http://jshamsul.com/labs/2011/10/17/weekend-web-project-crowded/</guid>
@@ -241,7 +257,7 @@ SOURCE HANDLER: Lena
     
       <item>
         <title>I am loving the Metro UI from Microsoft</title>
-        <description>&lt;p&gt;Those who knows me personally probably know that I am an Apple/Mac centric kind of person. No, I’m not a &amp;#8216;fanboy&amp;#8217; but I have been called that from time to time.&lt;/p&gt;
+        <description>&lt;p&gt;Those who knows me personally probably know that I am an Apple/Mac centric kind of person. No, I’m not a ‘fanboy’ but I have been called that from time to time.&lt;/p&gt;
 
 &lt;p&gt;Secretly however, I have a crush on the Metro UI design that Microsoft is adopting for their OS on new devices. Even though on the Wikipedia page it says that the Metro principles were use as early as Microsoft Encrata 95, but I think it was the Zune that Metro really makes its first appearance and people start noticing it. And now you can see the user interface on Windows Phone 7.&lt;/p&gt;
 
@@ -252,40 +268,41 @@ SOURCE HANDLER: Lena
 &lt;p&gt;Metro to me is more then just a theme you slap on an OS or software. It’s a design philosophy.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;“Metro is our design language. We call it metro because it is modern and clean. It is fast and in motion. It’s about content and typography. And it’s entirely authentic.”&lt;/p&gt;
+  &lt;p&gt;“Metro is our design language. We call it metro because it is modern and clean. It is fast and in motion. It’s about content and typography. And it’s entirely authentic.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Most people are annoyed with the whole lack of UI in Metro, but it is in fact for that reason of less UI chrome that I love Metro. There are few core principles that defines the Microsoft Metro Language, and I’ll try to go through some of it here pretending that I know a thing or two about design.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Windows 8 Screenshot' src='http://assets.jshamsul.com/Screen-shot-2011-09-22-at-12.15.29-PM.png' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.jshamsul.com/Screen-shot-2011-09-22-at-12.15.29-PM.png&quot; alt=&quot;Windows 8 Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id='typography'&gt;Typography&lt;/h3&gt;
+&lt;h3 id=&quot;typography&quot;&gt;Typography&lt;/h3&gt;
 
-&lt;p&gt;Typography plays an important role in the whole Metro design language. The slim Segoe based font family fits right in with the sharp edges of the design element. It is not just about beautiful fonts for text labels, it is functional.&lt;/p&gt;
+&lt;p&gt;Typography plays an important role in the whole Metro design language. The slim Segoe based font family fits right in with the sharp edges of the design element. It is not just about beautiful fonts for text labels, it is functional. &lt;/p&gt;
 
-&lt;p&gt;With the right balance of weight, white space and positioning it creates a visual hierarchy without the need for extra UI elements. In Metro it&amp;#8217;s clear that which text is the title and which are the content.&lt;/p&gt;
+&lt;p&gt;With the right balance of weight, white space and positioning it creates a visual hierarchy without the need for extra UI elements. In Metro it’s clear that which text is the title and which are the content.&lt;/p&gt;
 
-&lt;h3 id='motion'&gt;Motion&lt;/h3&gt;
+&lt;h3 id=&quot;motion&quot;&gt;Motion&lt;/h3&gt;
 
-&lt;p&gt;Transition are and important element to a UI design. It tells the story and user knows what to expect. Metro has a consistent set of animations that are not just pretty to look at but serve a functional purpose.&lt;/p&gt;
+&lt;p&gt;Transition are and important element to a UI design. It tells the story and user knows what to expect. Metro has a consistent set of animations that are not just pretty to look at but serve a functional purpose. &lt;/p&gt;
 
-&lt;h3 id='content_not_chrome'&gt;Content not Chrome&lt;/h3&gt;
+&lt;h3 id=&quot;content-not-chrome&quot;&gt;Content not Chrome&lt;/h3&gt;
 
 &lt;p&gt;This is my favorite. I always think that content itself can be the interface. All other UI containers and elements just get in the way. Content has to always be the top priority.&lt;/p&gt;
 
-&lt;p&gt;Metro really implement this to its core. No chrome no distraction.&lt;/p&gt;
+&lt;p&gt;Metro really implement this to its core. No chrome no distraction. &lt;/p&gt;
 
-&lt;h3 id='honesty'&gt;Honesty&lt;/h3&gt;
+&lt;h3 id=&quot;honesty&quot;&gt;Honesty&lt;/h3&gt;
 
-&lt;p&gt;Metro design language is design for the digital. Metro knows that it is designed for the digital device and Metro does not pretend to be something else.&lt;/p&gt;
+&lt;p&gt;Metro design language is design for the digital. Metro knows that it is designed for the digital device and Metro does not pretend to be something else. &lt;/p&gt;
 
-&lt;p&gt;A note taking application does not need to look like a Moleskine note book. A calendar application does not need to look like a leather bound desk calendar. Metro does not pretend to be something it is not.&lt;/p&gt;
+&lt;p&gt;A note taking application does not need to look like a Moleskine note book. A calendar application does not need to look like a leather bound desk calendar. Metro does not pretend to be something it is not. &lt;/p&gt;
 
-&lt;h2 id='moving_forward'&gt;Moving forward&lt;/h2&gt;
+&lt;h2 id=&quot;moving-forward&quot;&gt;Moving forward&lt;/h2&gt;
 
-&lt;p&gt;I hope Microsoft will move forward with this new paradigm shift of digital interface. This is the most innovative thing coming from Microsoft.&lt;/p&gt;
+&lt;p&gt;I hope Microsoft will move forward with this new paradigm shift of digital interface. This is the most innovative thing coming from Microsoft. &lt;/p&gt;
 
-&lt;p&gt;Nobody ever gets it right the first time, Metro has it shares of haters. I hope Microsoft will still keep pushing this, and keep on going in this path.&lt;/p&gt;</description>
+&lt;p&gt;Nobody ever gets it right the first time, Metro has it shares of haters. I hope Microsoft will still keep pushing this, and keep on going in this path.&lt;/p&gt;
+</description>
         <pubDate>Thu, 22 Sep 2011 08:00:00 +0800</pubDate>
         <link>http://jshamsul.com/opinions/2011/09/22/i-am-loving-the-metro-ui-from-microsoft/</link>
         <guid isPermaLink="true">http://jshamsul.com/opinions/2011/09/22/i-am-loving-the-metro-ui-from-microsoft/</guid>

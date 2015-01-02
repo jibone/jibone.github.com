@@ -1,5 +1,5 @@
-markdown: maruku
-pygments: true
+markdown: Kramdown
+highlighter: pygments
 permalink: pretty
 exclude: [Cakefile, README.md, CNAME]
 title: jShamsul.com (@jibone)

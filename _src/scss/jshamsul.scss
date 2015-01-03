@@ -1,0 +1,205 @@
+/*
+ *  Main style sheet for jshamsul.com
+ */
+
+@import "_normalize";
+@import "_variables";
+@import "_mixins";
+
+// ---------------------------------------------------------
+// -- layout container -------------------------------------
+html, body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $base_font;
+  font-size: $base_font_size;
+  background-color: $grey_light;
+}
+.page-container {
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+  width: auto;
+  max-width: 900px;
+}
+a {
+  text-decoration: none;
+}
+.highlight {
+  pre {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+}
+img {
+  width: 100%;
+}
+code, pre {
+  white-space: pre;
+  font-size: 0.7em;
+}
+
+// ---------------------------------------------------------
+// -- header styles ----------------------------------------
+.header-container {
+  overflow: hidden;
+  background-color: $black;
+  padding: $base_font_size 0px $base_font_size 0px;
+  font-family: $alt_font;
+  color: darken($white, 5%);
+  a {
+    color: $white;
+    font-weight: 200;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px $black
+  }
+  //.left, .right {
+  //  width: 50%;
+  //}
+  .left {
+    width: 20%;
+    float: left;
+  }
+  .right {
+    width: 80%;
+    float: right;
+    text-align: right;
+  }
+}
+
+// ---------------------------------------------------------
+// -- content container styles -----------------------------
+.content-panel {
+  background-color: $white;
+  padding: 20px 0px 5px 0px;
+  color: $grey_dark;
+  line-height: 1.5;
+  .big-title {
+    font-size: 4em;
+    color: $black;
+  }
+  .title {
+    font-size: 2.5em;
+    color: $black;
+  }
+  .content-archive,
+  .content {
+    a {
+      color: $black;
+      border-bottom: 1px solid $grey_light;
+      &:hover {
+        background-color: #f8f8cc;
+      }
+    }
+  }
+  .aside {
+    font-family: $alt_font;
+    font-size: 0.8em;
+    text-align: right;
+    .link, .label {
+      display: block;
+    }
+    .label {
+      font-size: 0.9em;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+    }
+    a.link {
+      color: darken(#55b8d4, 10%);
+    }
+  }
+}
+.separator {
+  overflow: hidden;
+  background-color: $white;
+}
+ul.link-list,
+ul.blog-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  //padding-left: 5px;
+  li {
+    overflow: hidden;
+    margin-bottom: 5px;
+    span.date {
+      color: $grey_normal;
+    }
+    a.link {}
+  }
+}
+hr {
+  border: 0px;
+  border-top: 1px solid #eee;
+}
+.post-content-container {
+  color: $grey_dark;
+  blockquote {
+    color: lighten($grey_dark, 10%);
+    font-style: italic;
+    font-size: 1.1em;
+  }
+  .aside {
+    text-align: right;
+  }
+}
+
+.footer-container {
+  .page-container {
+    background-color: $grey-light;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: $alt_font;
+    font-size: 0.8em;
+  }
+}
+.link-list-container,
+.related-post-container,
+.archive-list-container,
+.blog-list-container {
+  padding-bottom: 50px;
+}
+.archive-list-container {
+  .page-container {
+    .content-archive {
+      overflow: hidden;
+      p.year {
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        font-size: 2.3em;
+      }
+      ul.archive {}
+    }
+  }
+}
+
+// ---------------------------------------------------------
+// -- media queries ----------------------------------------
+
+// -- 480px
+@media only screen and (min-width: 480px) {
+  @import "_480";
+}
+
+// -- 600px
+@media only screen and (min-width: 600px) {
+  @import "_600";
+}
+
+// -- 768px
+@media only screen and (min-width: 768px) {
+  @import "_768";
+}
+
+// -- 992
+@media only screen and (min-width: 992px) {
+  @import "_992";
+}
+
+// -- 1382px
+@media only screen and (min-width: 1382) {
+  @import "_1382";
+}
+
+

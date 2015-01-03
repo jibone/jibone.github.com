@@ -1,0 +1,37 @@
+/*
+ *  Specific styles for 600 screen size
+ */
+html, body {
+  font-size: 16px;
+}
+.page-container {
+  overflow: hidden;
+  padding: 0px 30px 0px 30px;
+}
+
+// ---------------------------------------------------------
+// -- content styles ---------------------------------------
+.content-panel {
+  .page-container {
+    .content {
+      width: 75%;
+      float: left;
+    }
+    .aside {
+      width: 20%;
+      float: right;
+      font-size: 0.65em;
+      padding-top: 10px;
+      text-align: left;
+    }
+    .aside-blog-post {
+      padding-top: 10px;
+      p {
+        span {
+          display: block;
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+}

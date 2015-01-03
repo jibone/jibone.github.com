@@ -1,0 +1,20 @@
+{
+  "name" : "jshamsul.com",
+  "version" : "2.0.0",
+  "dependencies" : {
+    "gulp" : "*",
+    "gulp-ruby-sass" : "*",
+    "gulp-autoprefixer" : "*",
+    "gulp-minify-css" : "*",
+    "gulp-jshint" : "*",
+    "gulp-scss-lint" : "*",
+    "jshint-stylish" : "*",
+    "gulp-uglify" : "*",
+    "gulp-imagemin" : "*",
+    "gulp-rename" : "*",
+    "gulp-clean" : "*",
+    "gulp-concat" : "*",
+    "gulp-notify" : "*",
+    "gulp-cache" : "*"
+  }
+}

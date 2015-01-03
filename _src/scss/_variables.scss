@@ -1,26 +1,28 @@
-/*
- *  sass variables for jshamsul.com
- */
+//
+//  sass variables for jshamsul.com
+//
 
-// ---------------------------------------------------------
-// -- greyscale colors -------------------------------------
-$black:         #111111;
-$grey_dark:     lighten($black, 25%);
-$grey_normal:   lighten($black, 50%);
-$grey_light:    lighten($black, 75%);
-$grey_lighter:  lighten($black, 90%);
-$white:         #ffffff;
+//
+//  Greyscale colors
+//
+$black:         #111;
+$grey-dark:     lighten($black, 25%);
+$grey-normal:   lighten($black, 50%);
+$grey-light:    lighten($black, 75%);
+$grey-lighter:  lighten($black, 90%);
+$white:         #fff;
 
-$body_color:    $grey_lighter;
-$text_color:    $black;
+$body-color:    $grey-lighter;
+$text-color:    $black;
 
-// ---------------------------------------------------------
-// -- Typography -------------------------------------------
-$font_serif:        Poly, Georgia,"Times New Roman",Times,serif;
-$font_sans:         "open sans",sans-serif;
-$font_monospace:    Monaco, "Courier New", monospace;
-$base_font:         $font_serif;
-$base_font_size:    14px;
-$base_line_height:  1.5;
+//
+//  Typography
+//
+$font-serif:        Poly, Georgia, "Times New Roman", Times, serif;
+$font-sans:         "open sans", sans-serif;
+$font-monospace:    Monaco, "Courier New", monospace;
+$base-font:         $font-serif;
+$base-font-size:    14px;
+$base-line-height:  1.5;
 
-$alt_font:          $font_sans;
+$alt-font:          $font-sans;

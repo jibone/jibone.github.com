@@ -22,7 +22,7 @@ var gulp = require('gulp'),
  *
  */
 gulp.task('scsslint', function() {
-  return gulp.src('_src/scss/*.scss')
+  return gulp.src(['!_src/scss/_normalize.scss', '_src/scss/*.scss'])
     .pipe(scsshint());
 });
 

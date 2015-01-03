@@ -1,9 +1,11 @@
-/*
- *  Specific styles for 992 screen size
- */
-html, body {
+//
+//  Specific styles for 992 screen size
+//
+html,
+body {
   font-size: 18px;
 }
+
 .page-container {
   overflow: hidden;
 }
@@ -12,64 +14,73 @@ html, body {
 // ---------------------------------------------------------
 // -- content styles ---------------------------------------
 .content-panel {
-  .page-container {
-    .content {
-      width: 75%;
-      float: left;
-      p { padding: 0px; }
-      p.title {
-        margin: 0px;
-        padding-top: 10px;
-        padding-left: 5px;
-      }
+  .content {
+    float: left;
+    width: 75%;
+
+    p {
+      padding: 0;
     }
-    .aside {
-      width: 20%;
-      float: right;
-      font-size: 0.65em;
+
+    .title {
+      margin: 0;
+      padding-left: 5px;
       padding-top: 10px;
-      text-align: left;
-      p {
-        padding: 0px 10px 0px 0px;
-      }
-      .twitter-aside {
-        padding-top: 5px;
-        p {
-          span {
-            display: block;
-            margin-bottom: 7px;
-          }
-        }
-      }
-    }
-    .aside-blog-post {
-      padding-top: 10px;
-      p {
-        span {
-          display: block;
-          margin-bottom: 7px;
-        }
-      }
     }
   }
 }
+
+.aside {
+  float: right;
+  font-size: .65em;
+  padding-top: 10px;
+  text-align: left;
+  width: 20%;
+
+  p {
+    padding: 0 10px 0 0;
+  }
+
+  .twitter-aside {
+    float: left;
+    padding-top: 5px;
+
+    span {
+      display: block;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+.aside-blog-post {
+  margin: 0;
+  padding-top: 10px;
+
+  p span {
+    display: block;
+    margin-bottom: 7px;
+  }
+}
+
+
 .archive-list-container {
   padding-bottom: 50px;
-  .page-container {
-    .content-archive {
-      overflow: hidden;
-      p.year {
-        padding: 0px;
-        margin: 0px;
-        text-align: left;
-        font-size: 2.3em;
-        width: 16%;
-        float: left;
-      }
-      ul.archive {
-        width: 75%;
-        float: left;
-      }
+
+  .content-archive {
+    overflow: hidden;
+
+    .year {
+      float: left;
+      font-size: 2.3em;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      width: 16%;
+    }
+
+    .archive {
+      float: left;
+      width: 75%;
     }
   }
 }
